@@ -1,0 +1,1600 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+F:/UrbanHackathon 2024/Unity/CityHackathon_0
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+63988
+Successfully changed project path to: F:/UrbanHackathon 2024/Unity/CityHackathon_0
+F:/UrbanHackathon 2024/Unity/CityHackathon_0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [42516] Host "[IP] 192.168.0.209 [Port] 0 [Flags] 2 [Guid] 2781357927 [EditorId] 2781357927 [Version] 1048832 [Id] WindowsEditor(7,RVX) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [42516] Host "[IP] 192.168.0.209 [Port] 0 [Flags] 2 [Guid] 2781357927 [EditorId] 2781357927 [Version] 1048832 [Id] WindowsEditor(7,RVX) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 7.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/UrbanHackathon 2024/Unity/CityHackathon_0/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 with Max-Q Design (ID=0x1e90)
+    Vendor:   NVIDIA
+    VRAM:     8002 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004478 seconds.
+- Loaded All Assemblies, in  0.330 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.278 seconds
+Domain Reload Profiling: 608ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (279ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (215ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\UrbanHackathon 2024\Unity\CityHackathon_0\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\UrbanHackathon 2024\Unity\CityHackathon_0\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.749 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.808 seconds
+Domain Reload Profiling: 1556ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (544ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (297ms)
+				TypeCache.ScanAssembly (284ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (808ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (635ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (501ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (57.8 KB). Loaded Objects now: 4042.
+Memory consumption went from 210.7 MB to 210.6 MB.
+Total: 3.654900 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.220100 ms MarkObjects: 3.063100 ms  DeleteObjects: 0.113300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CardStack2D.cs: 52f7ac406c04f320c1cc31b32fc945ec -> 
+  custom:scripting/monoscript/fileName/UILineRendererFIFO.cs: 1a840d7d842445f62c20beee85a5bbc5 -> 
+  custom:scripting/monoscript/fileName/FlowLayoutGroup.cs: 4f8c51e99186127173631d5ea0b848a8 -> 
+  custom:scripting/monoscript/fileName/UIParticleSystem.cs: 6cef203566a0c9333597e4e233613614 -> 
+  custom:scripting/monoscript/fileName/UILineRenderer.cs: 673f1b621ab4781ac78770b1b3c45207 -> 
+  custom:scripting/monoscript/fileName/TableLayoutGroup.cs: 9697d88a99d4c91003d206b86eed3a61 -> 
+  custom:scripting/monoscript/fileName/Segment.cs: 823b994f6bbb6e32f73e9807948df6b3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SelectionBox.cs: 9eabc2822607d24d284c5c0d720d4a01 -> 
+  custom:scripting/monoscript/fileName/ReorderableListContent.cs: a630238339e5f198f723ac29a2329f6d -> 
+  custom:scripting/monoscript/fileName/SetPropertyUtility.cs: 02aade692758e5563210cc05829e9851 -> f604b4b9e6b0979bdfc1e2b40426dd19
+  custom:scripting/monoscript/fileName/HSVUtil.cs: 2f204c7a89b046fae714aadbcda42851 -> 
+  custom:scripting/monoscript/fileName/FancyCellGroup.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/RescaleDragPanel.cs: 428e5a10a21f2d3fc3805557487d591e -> 
+  custom:scripting/monoscript/fileName/ExtensionsToggleGroup.cs: 93967f93faef61aecdca9232fa42b062 -> 
+  custom:scripting/monoscript/fileName/ResizePanel.cs: 0a2d1269c62cba913a254b515f8b6020 -> 
+  custom:scripting/monoscript/fileName/Circle.cs: cfc2369c92dd039be7c3f572f769fdcf -> 
+  custom:scripting/monoscript/fileName/ShaderLibrary.cs: 7a09676978959734a6827051c965f749 -> 
+  custom:scripting/monoscript/fileName/CurvedText.cs: c86aabacdca275700720e919fc8a8b52 -> 
+  custom:scripting/monoscript/fileName/FancyScrollRectCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/Gradient.cs: a4c2a5a25440c543cd82653fda832632 -> 
+  custom:scripting/monoscript/fileName/ScrollSnapBase.cs: 3682088473625968e7b4647a6b4213f6 -> 
+  custom:scripting/monoscript/fileName/CUIText.cs: 0be1a405bc9388e4813a74aad6018bec -> 
+  custom:scripting/monoscript/fileName/BoundTooltipTrigger.cs: e78e2ee612ba85e075ab794a5cb95e73 -> 
+  custom:scripting/monoscript/fileName/UIHighlightable.cs: fd305ad78204cb75a66ce809c3f50e6a -> 
+  custom:scripting/monoscript/fileName/UIExtensionsInputManager.cs: 6f468ddae971c3bcce0288549c1beabd -> 
+  custom:scripting/monoscript/fileName/Gradient2.cs: 9c1fd6257924e43a80b8fccb859d3828 -> 
+  custom:scripting/monoscript/fileName/CooldownButton.cs: 72bd21b90ac71f29908a36179176f8fc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TileSizeFitter.cs: ba6326e335b6f177a627b992c444832c -> 
+  custom:scripting/monoscript/fileName/SelectableScaler.cs: 3ebe175d64b38a572f8dbe8fd345f0c3 -> 
+  custom:scripting/monoscript/fileName/AccordionElementEditor.cs: db5ee9b2cff22578a12a4d141614d665 -> 
+  custom:scripting/monoscript/fileName/ExtensionsToggle.cs: e0b44aa7e1ff973d74b4857a34a48879 -> 
+  custom:scripting/monoscript/fileName/ShineEffector.cs: 52ed4eb6c7ed8f674a18d2a4db6eba86 -> 
+  custom:scripting/monoscript/fileName/ReorderableListElement.cs: 788a31431a1c95dc9a9a52767f8e812f -> 
+  custom:scripting/monoscript/fileName/UISelectableExtension.cs: b6766007d8a2236e23d4749da2d8cdd2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UISoftAdditiveEffect.cs: 30a825933c907dec19605ff2f58a292f -> 
+  custom:scripting/monoscript/fileName/HexColorField.cs: 425eeca1ce4159bc649962b2337061a4 -> 
+  custom:scripting/monoscript/fileName/ColorPickerControl.cs: 97231f899ae243cc634f34e048c22095 -> 
+  custom:scripting/monoscript/fileName/ReorderableListDebug.cs: 51cf5a188c464deb681bea16cb795b61 -> 
+  custom:scripting/monoscript/fileName/TextPic.cs: 9dbd7bc654cbf19eee33ac6fc452bfb1 -> 
+  custom:scripting/monoscript/fileName/CUIImage.cs: 41f29f650aa507f802cd9793d91f3211 -> 
+  custom:scripting/monoscript/fileName/DropDownListButton.cs: 71d533f2602e0e099d09a556ef8e4414 -> 
+  custom:scripting/monoscript/fileName/ScrollSnap.cs: c5ae67ed5cc8c0ab1f7496803acc2648 -> 
+  custom:scripting/monoscript/fileName/TextPicIconListCopier.cs: a564a2a474c019b98650cff2383ccfca -> 
+  custom:scripting/monoscript/fileName/UICornerCut.cs: 69b0dfb485aa2b1afa65fcf30028125b -> 
+  custom:scripting/monoscript/fileName/ScrollerEditor.cs: 478519b80ad2bc62d4a4b80ae078e694 -> 
+  custom:scripting/monoscript/fileName/IBoxSelectable.cs: a5bf39a694cf2b84c65e7bec998d4941 -> 
+  custom:scripting/monoscript/fileName/TiltWindow.cs: 7c3356d1b5bc9c6e9fe98345b0be7c30 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 943bd8dac5ce9467ce7deb0856dc6b0a -> 
+  custom:scripting/monoscript/fileName/ComboBox.cs: a6ca48dde827ff07a9093f3624d58e62 -> 
+  custom:scripting/monoscript/fileName/ScrollRectLinker.cs: 0316116e17d192ca2ef7c97539dff50f -> 
+  custom:scripting/monoscript/fileName/SVBoxSlider.cs: 1d22c9c16d63e1cf38ad19bbcec9a0da -> 
+  custom:scripting/monoscript/fileName/VerticalScrollSnap.cs: a7ebcf1fac8331e70ee01e540cbe484b -> 
+  custom:scripting/monoscript/fileName/UILineConnector.cs: ea5f69a32957fe35ae7b512ef3f758ef -> 
+  custom:scripting/monoscript/fileName/UIScreenEffect.cs: c36542c529d1f733362556ab22c18bf9 -> 
+  custom:scripting/monoscript/fileName/SoftMaskScript.cs: 867049fb2647c9983fb1391409f93d30 -> 
+  custom:scripting/monoscript/fileName/DiamondGraph.cs: a01b647a54847840428a395cc0d6fc16 -> 
+  custom:scripting/monoscript/fileName/ScrollRectEx.cs: 3f6a881a34055e182fee3ab0baaee0c3 -> 
+  custom:scripting/monoscript/fileName/UIGridRenderer.cs: 04c0062f4b7cdd6963fdba9ae03d9c72 -> 
+  custom:scripting/monoscript/fileName/NicerOutline.cs: 571a7c7c4af4ebadc9fed23f0c3b0b46 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ScrollRectExtensions.cs: c76cb840404ffa9bc24248639e9da4ee -> 
+  custom:scripting/monoscript/fileName/FancyGridViewContext.cs: 8738476657d4a33c34bc82bed7ce8bc9 -> 
+  custom:scripting/monoscript/fileName/MinMaxValues.cs: 4aa11a61e640749f4ea5f947f86be5ba -> 
+  custom:scripting/monoscript/fileName/CardExpanding3D.cs: d8b2b9924677ad2b445b05edbed7f0e3 -> 
+  custom:scripting/monoscript/fileName/MinMaxSliderEditor.cs: e0496a7f76fc8934af2a763a7289ad36 -> 
+  custom:scripting/monoscript/fileName/StepperSide.cs: 34d9a35c8c2622f327b140f18a7398a7 -> 
+  custom:scripting/monoscript/fileName/CUIGraphicEditor.cs: a618262d3e77d462c5a0cd2e608e8a53 -> 
+  custom:scripting/monoscript/fileName/DropDownList.cs: 3d51ab81e9571c9027b59874b2c78567 -> 
+  custom:scripting/monoscript/fileName/ITweenValue.cs: 1d0eaa4b435fa135e18af6b5fa57e92e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CardExpanding2D.cs: e0950b450275cb3936a581f286a6b471 -> 
+  custom:scripting/monoscript/fileName/ResetSelectableHighlight.cs: 3ea63487fd77e7b22731770a86b4f8b9 -> 
+  custom:scripting/monoscript/fileName/UIScrollToSelection.cs: d89fc8e36bdc19715e3104a5f857d175 -> 
+  custom:scripting/monoscript/fileName/IScrollSnap.cs: 80b4110dac6695d630b8e7501d8e5aa8 -> 
+  custom:scripting/monoscript/fileName/SegmentedControl.cs: 3a6e53207de58cf304ab520e0638e2df -> 
+  custom:scripting/monoscript/fileName/ColorSampler.cs: 617678b91f4adc7b3146f51bed3fc4b1 -> 
+  custom:scripting/monoscript/fileName/TabNavigationHelper.cs: 43f45dc623750048d2fbac24931c8ac8 -> 
+  custom:scripting/monoscript/fileName/AutoCompleteComboBox.cs: 6e2e6cf33d4f5ca4ad3c05ff8f254467 -> 
+  custom:scripting/monoscript/fileName/TextPicEditor.cs: c23216fe996c314d4c496ad837485981 -> 
+  custom:scripting/monoscript/fileName/CUIMisc.cs: bc26c7f132f5cd28304cbc88070ca4dc -> 
+  custom:scripting/monoscript/fileName/UIAdditiveEffect.cs: 50386f7d7d76f5c5e155dbf56c5e5fdd -> 
+  custom:scripting/monoscript/fileName/MonoSpacing.cs: 45ba6bf376dd125375a8906a7d8b8b4b -> 
+  custom:scripting/monoscript/fileName/FloatTween.cs: c51b551f6abec506d0db9945f7aa25cc -> 
+  custom:scripting/monoscript/fileName/BoxSlider.cs: 662335e935a62641f6cb14e99e25e994 -> 
+  custom:scripting/monoscript/fileName/BezierLineRendererEditor.cs: 2a50098be424d999e43b888ace13278c -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: a309796f6d67e4c1c110ec62b4572b4e -> 
+  custom:scripting/monoscript/fileName/ScrollPositionController.cs: 30c392a65a277a4a74b1a6f1a3417601 -> 
+  custom:scripting/monoscript/fileName/ContentScrollSnapHorizontal.cs: cb0bf043572062ce08b48904f46c98c8 -> 
+  custom:scripting/monoscript/fileName/Triangulator.cs: 0fd472f1423376cded7e59b247645a25 -> 
+  custom:scripting/monoscript/fileName/UIImageCrop.cs: 1ec5d1f18ccf3bbe8ea319cda00ecfbc -> 
+  custom:scripting/monoscript/fileName/BoxSliderEditor.cs: 9c680a5a338924fb176605eed0f68a75 -> 
+  custom:scripting/monoscript/fileName/FancyScrollView.cs: c5f9c64ec4b4e183b17919204bc381a9 -> 
+  custom:scripting/monoscript/fileName/BezierPath.cs: 90cbb6f823f7a03c69c93b3e1653c45e -> 
+  custom:scripting/monoscript/fileName/SuperellipsePoints.cs: db2a1c9698f2dea478e1d6bfece554ae -> 
+  custom:scripting/monoscript/fileName/UI_Knob.cs: 00244fb2be3e9e1f5ec3a07f175066a9 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/RaycastMask.cs: b13971e6a124c25b886c6703ae2aab24 -> 
+  custom:scripting/monoscript/fileName/MultiTouchScrollRect.cs: 3a778993ea01435b2502c14ea2b2ff98 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/InputFieldEnterSubmit.cs: cdd5149b8afb8dc59ad57cc53ad8fb3b -> 
+  custom:scripting/monoscript/fileName/ExampleSelectable.cs: 8dc7a8cd606154e7d10bb507e235c1f8 -> 
+  custom:scripting/monoscript/fileName/uGUITools.cs: aa32797d8a9cdcd2167b6be114b0d5ec -> 
+  custom:scripting/monoscript/fileName/UILinearDodgeEffect.cs: f5508d2f3f6addba614d4c08275f4546 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/EasingCore.cs: 0bad7e894488e9b67256d892a478aab1 -> 
+  custom:scripting/monoscript/fileName/Stepper.cs: 3ee1a56034750815f9c567b6c54fbbb8 -> 
+  custom:scripting/monoscript/fileName/UIPrimitiveBase.cs: 80a945e915822efd5c887ee28f76aa9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LetterSpacing.cs: c4f4c504ac9c0b708c438c8a0faf6a96 -> 
+  custom:scripting/monoscript/fileName/UISquircle.cs: faaa67841792f2c90a13db82841ac6e3 -> 
+  custom:scripting/monoscript/fileName/RangeSlider.cs: 026cea0882c5bbc90f7cedc5111cfeb2 -> 
+  custom:scripting/monoscript/fileName/UIExtensionMethods.cs: 2621bff24acfb4ddb3b264b7553588d8 -> 
+  custom:scripting/monoscript/fileName/UIVerticalScroller.cs: 3532ae0d4ba5f6e2c310cfec2c655a8c -> 
+  custom:scripting/monoscript/fileName/ColorLabel.cs: 9a2d62e5e8f65400e4abc881023f36f7 -> 
+  custom:scripting/monoscript/fileName/TooltipTrigger.cs: 546a7d73bc42b9e6f1fd03a7e07d7f29 -> 
+  custom:scripting/monoscript/fileName/UIMultiplyEffect.cs: 29b6f1f4d98d9b61292d829c0030af4b -> 
+  custom:scripting/monoscript/fileName/CardPopup2D.cs: ac929914b8675b3ff1238ddb1cc99789 -> 
+  custom:scripting/monoscript/fileName/ScrollSnapScrollbarHelper.cs: d6b043fd7048156ea2ef4da9da4a0a51 -> 
+  custom:scripting/monoscript/fileName/HoverTooltip.cs: abdf0400bdf15bb8fdc0bc4d5ecc993f -> 
+  custom:scripting/monoscript/fileName/ColorImage.cs: 87dea3e9bf43c94e295d4fa411046c66 -> 
+  custom:scripting/monoscript/fileName/FancyScrollRectContext.cs: 9e5d4d8665c04a1190a3fc52908244b0 -> 
+  custom:scripting/monoscript/fileName/TextPicIconEditor.cs: 1f41560011fcb93d03be374d10238c0c -> 
+  custom:scripting/monoscript/fileName/UI_InfiniteScroll.cs: f7518bdb5ccbb5518282b9c860eef985 -> 
+  custom:scripting/monoscript/fileName/UIExtensionsMenuOptions.cs: 25d3bc76bdcc7be45d732e8f064ec6a7 -> 
+  custom:scripting/monoscript/fileName/ReadOnlyAttribute.cs: 604ae8fbc27d6402b88ac08f1987318f -> 
+  custom:scripting/monoscript/fileName/UICircle.cs: e40253d6117a9fbea82cc285a7e8a36e -> 
+  custom:scripting/monoscript/fileName/UIScrollToSelectionXY.cs: 8145d21a6ef6f8610242d2ba291595b9 -> 
+  custom:scripting/monoscript/fileName/CUITextEditor.cs: 966cced0a631446b9484c2fe777a7f5b -> 
+  custom:scripting/monoscript/fileName/TweenRunner.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/UIHorizontalScroller.cs: 758f016ad67e22eff0f26468f408f006 -> 
+  custom:scripting/monoscript/fileName/ReturnKeyTriggersButton.cs: 622f27a1a5fce3f8fe14f0fe6c6b39b5 -> 
+  custom:scripting/monoscript/fileName/FancyGridViewCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/Scroller.cs: 94938ad1cd7c20206a0339e3bd7f3330 -> 
+  custom:scripting/monoscript/fileName/CylinderText.cs: 86c073c10ed890f8e108be86fb350e35 -> 
+  custom:scripting/monoscript/fileName/ColorPickerPresets.cs: d20309ac183a87fd46c2e0a03ba5bdef -> 
+  custom:scripting/monoscript/fileName/RadialSlider.cs: 24542b53b379116a4f98bb53a64e13b8 -> 
+  custom:scripting/monoscript/fileName/PPIViewer.cs: 5269fbe050022d597b2ceba1b1d4cbae -> 
+  custom:scripting/monoscript/fileName/InputFocus.cs: 6a5a3b184038cb5e7dbe4882c96bc91b -> 
+  custom:scripting/monoscript/fileName/CUIBezierCurve.cs: 32214df0cb137de9f4967269deffb6f3 -> 
+  custom:scripting/monoscript/fileName/DropDownListItem.cs: 91c61fd79335f34fb81e114553bf8888 -> 
+  custom:scripting/monoscript/fileName/UIFlippable.cs: 9c843e180ea4b6afe9c1ba071336e124 -> 
+  custom:scripting/monoscript/fileName/CanvasGroupActivator.cs: f743e9c6e47b0eb8c0b7b2fbf9f7de19 -> 
+  custom:scripting/monoscript/fileName/UIWindowBase.cs: 776e605614a77fffd4e0147c8e684e94 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ScrollPositionControllerEditor.cs: fb86570a90d8d5b779234b7f103e1b51 -> 
+  custom:scripting/monoscript/fileName/CurvedLayout.cs: 46917779e317aa4a214ea430689de312 -> 
+  custom:scripting/monoscript/fileName/ScrollConflictManager.cs: 1a474b2432b80a8b7211f13c79bb991c -> 
+  custom:scripting/monoscript/fileName/ReadOnlyDrawer.cs: 1c0aa6472b8e40c24f66a5805d818994 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FancyGridView.cs: 849ed7f5b11c9db237ef61b01c5a5104 -> 
+  custom:scripting/monoscript/fileName/CableCurve.cs: 1ed0592bfc80d3ca3db7b55e9a6e9d9a -> 
+  custom:scripting/monoscript/fileName/PaginationManager.cs: b5c7a38e1c9bde92ca052679632bc9f1 -> 
+  custom:scripting/monoscript/fileName/UILineTextureRenderer.cs: f3042185c83712ad42b2d6694b56f8d3 -> 
+  custom:scripting/monoscript/fileName/MenuManager.cs: 8e71de17d45faf11b5ca3e63d3867170 -> 
+  custom:scripting/monoscript/fileName/ColorPickerPresetsEditor.cs: 57bebb34d006d8305e8cd353ea00f28b -> 
+  custom:scripting/monoscript/fileName/UI_MagneticInfiniteScroll.cs: 7f0db092e1c52c826e7ccbefe21fe7ce -> 
+  custom:scripting/monoscript/fileName/ToolTip.cs: 2f05f936126a769ca9a98ef6920928a7 -> 
+  custom:scripting/monoscript/fileName/TextPicRenameEditor.cs: b67a1588d964fe3ac177da9872e96689 -> 
+  custom:scripting/monoscript/fileName/TestCompression.cs: 2a18178f72c1b3979b9006483863f20e -> 
+  custom:scripting/monoscript/fileName/IFancyScrollRectContext.cs: 9c4dee0aef526d67eb0a668a1c9b910a -> 
+  custom:scripting/monoscript/fileName/ColorChangedEvent.cs: bafb161b451089e6c72bcae877e0ba66 -> 
+  custom:scripting/monoscript/fileName/BestFitOutline.cs: 2ec1c68346f5b721e3d92092cd60b278 -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphicEditor.cs: 1e7abd1e1a4d3da38de70c6d38c19118 -> 
+  custom:scripting/monoscript/fileName/HSVChangedEvent.cs: 8a0d7f505f4db7e267a03264293f54eb -> 
+  custom:scripting/monoscript/fileName/CUIImageEditor.cs: 0be5a4365a8d65680f88c4d192e5254c -> 
+  custom:scripting/monoscript/fileName/HorizontalScrollSnap.cs: 624447835d67a70d90ed2b7f69117316 -> 
+  custom:scripting/monoscript/fileName/UI_TweenScale.cs: 50a18c41daf615d82dc37ef0e9dcea31 -> 
+  custom:scripting/monoscript/fileName/BoundTooltipItem.cs: 12dc26af634677e40fd7840809357e6c -> 
+  custom:scripting/monoscript/fileName/AccordionElement.cs: 69f1a7e537099cc57de9b6eaa86cef32 -> 
+  custom:scripting/monoscript/fileName/UI_ScrollRectOcclusion.cs: 491f1c2592ac821eb8de9e533fddd4a9 -> 
+  custom:scripting/monoscript/fileName/CUIBezierCurveEditor.cs: be4462c6de2387d5f99ef9d0e93b91ee -> 
+  custom:scripting/monoscript/fileName/ColorSliderImage.cs: bbcbfbf23dc2f9fc5450db8f36b24487 -> 
+  custom:scripting/monoscript/fileName/Accordion.cs: c31898dc7ffd6f7b32be5689419229bc -> 
+  custom:scripting/monoscript/fileName/FancyCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ShineEffect.cs: 61d233269c4ea687efa548adef5d6e13 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ScrollRectTweener.cs: 3437a8fb18bed84a45865e36e83e332f -> 
+  custom:scripting/monoscript/fileName/MeshCreator.cs: a2506ad04bac2e5a6d6d50e0d7978d92 -> 
+  custom:scripting/monoscript/fileName/UIPolygon.cs: ef7b3e02606f58c56a27e65db10bc7f3 -> 
+  custom:scripting/monoscript/fileName/switchToRectTransform.cs: 0ef297259b7f2ab26defc1d718ad1e0a -> 
+  custom:scripting/monoscript/fileName/UILineRendererList.cs: efbf4ff76c31aa3e4f61c8b26734d929 -> 
+  custom:scripting/monoscript/fileName/CLZF2.cs: 40ef7bf6191a1a5e5b0f37e092e1b271 -> 
+  custom:scripting/monoscript/fileName/SimpleMenu.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/RescalePanel.cs: a379a55181438e3b7a29019da8a3c82c -> 
+  custom:scripting/monoscript/fileName/DragCorrector.cs: 89ab4a0369eecb75be2277a80a08c1e7 -> 
+  custom:scripting/monoscript/fileName/RangeSliderEditor.cs: 1c09cdb4e75bc10f834bbae9a7b54e1e -> 
+  custom:scripting/monoscript/fileName/FancyScrollRect.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ReorderableList.cs: 944c8e214787d07461c711b29546f976 -> 
+  custom:scripting/monoscript/fileName/RadialLayout.cs: 170f31c5fdb54a9fe7ba926effdfd7d4 -> 
+  custom:scripting/monoscript/fileName/ColorSlider.cs: a91d06b853e0bf2d5df3ea61a67d5c83 -> 
+  custom:scripting/monoscript/fileName/IFancyGridViewContext.cs: be7addf49e5950ebb654fec55c2afa8b -> 
+  custom:scripting/monoscript/fileName/CUIGraphic.cs: 4f47fad340418bff51fe6171e2259e7f -> 
+  custom:scripting/monoscript/fileName/IFancyCellGroupContext.cs: 323b5f49cc2011b3d2d9088e528ed161 -> 
+  custom:scripting/monoscript/fileName/MinMaxSlider.cs: e7d98a511e8b98df33f72f37935821e5 -> 
+  custom:scripting/monoscript/fileName/ColorPickerTester.cs: 63b6c03c009a94721b9d41c8d5e5e6ed -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\UrbanHackathon 2024\Unity\CityHackathon_0\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\UrbanHackathon 2024\Unity\CityHackathon_0\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.836 seconds
+Refreshing native plugins compatible for Editor in 4.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.244 seconds
+Domain Reload Profiling: 2078ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (591ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (359ms)
+				TypeCache.ScanAssembly (348ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1244ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (754ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (581ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3536 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 4045.
+Memory consumption went from 202.1 MB to 202.1 MB.
+Total: 3.653400 ms (FindLiveObjects: 0.299500 ms CreateObjectMapping: 0.267800 ms MarkObjects: 3.040900 ms  DeleteObjects: 0.044300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CardStack2D.cs: 52f7ac406c04f320c1cc31b32fc945ec -> 
+  custom:scripting/monoscript/fileName/UILineRendererFIFO.cs: 1a840d7d842445f62c20beee85a5bbc5 -> 
+  custom:scripting/monoscript/fileName/FlowLayoutGroup.cs: 4f8c51e99186127173631d5ea0b848a8 -> 
+  custom:scripting/monoscript/fileName/UIParticleSystem.cs: 6cef203566a0c9333597e4e233613614 -> 
+  custom:scripting/monoscript/fileName/UILineRenderer.cs: 673f1b621ab4781ac78770b1b3c45207 -> 
+  custom:scripting/monoscript/fileName/TableLayoutGroup.cs: 9697d88a99d4c91003d206b86eed3a61 -> 
+  custom:scripting/monoscript/fileName/Segment.cs: 823b994f6bbb6e32f73e9807948df6b3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SelectionBox.cs: 9eabc2822607d24d284c5c0d720d4a01 -> 
+  custom:scripting/monoscript/fileName/ReorderableListContent.cs: a630238339e5f198f723ac29a2329f6d -> 
+  custom:scripting/monoscript/fileName/SetPropertyUtility.cs: 02aade692758e5563210cc05829e9851 -> f604b4b9e6b0979bdfc1e2b40426dd19
+  custom:scripting/monoscript/fileName/HSVUtil.cs: 2f204c7a89b046fae714aadbcda42851 -> 
+  custom:scripting/monoscript/fileName/FancyCellGroup.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/RescaleDragPanel.cs: 428e5a10a21f2d3fc3805557487d591e -> 
+  custom:scripting/monoscript/fileName/ExtensionsToggleGroup.cs: 93967f93faef61aecdca9232fa42b062 -> 
+  custom:scripting/monoscript/fileName/ResizePanel.cs: 0a2d1269c62cba913a254b515f8b6020 -> 
+  custom:scripting/monoscript/fileName/Circle.cs: cfc2369c92dd039be7c3f572f769fdcf -> 
+  custom:scripting/monoscript/fileName/ShaderLibrary.cs: 7a09676978959734a6827051c965f749 -> 
+  custom:scripting/monoscript/fileName/CurvedText.cs: c86aabacdca275700720e919fc8a8b52 -> 
+  custom:scripting/monoscript/fileName/FancyScrollRectCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/Gradient.cs: a4c2a5a25440c543cd82653fda832632 -> 
+  custom:scripting/monoscript/fileName/ScrollSnapBase.cs: 3682088473625968e7b4647a6b4213f6 -> 
+  custom:scripting/monoscript/fileName/CUIText.cs: 0be1a405bc9388e4813a74aad6018bec -> 
+  custom:scripting/monoscript/fileName/BoundTooltipTrigger.cs: e78e2ee612ba85e075ab794a5cb95e73 -> 
+  custom:scripting/monoscript/fileName/UIHighlightable.cs: fd305ad78204cb75a66ce809c3f50e6a -> 
+  custom:scripting/monoscript/fileName/UIExtensionsInputManager.cs: 6f468ddae971c3bcce0288549c1beabd -> 
+  custom:scripting/monoscript/fileName/Gradient2.cs: 9c1fd6257924e43a80b8fccb859d3828 -> 
+  custom:scripting/monoscript/fileName/CooldownButton.cs: 72bd21b90ac71f29908a36179176f8fc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TileSizeFitter.cs: ba6326e335b6f177a627b992c444832c -> 
+  custom:scripting/monoscript/fileName/SelectableScaler.cs: 3ebe175d64b38a572f8dbe8fd345f0c3 -> 
+  custom:scripting/monoscript/fileName/AccordionElementEditor.cs: db5ee9b2cff22578a12a4d141614d665 -> 
+  custom:scripting/monoscript/fileName/ExtensionsToggle.cs: e0b44aa7e1ff973d74b4857a34a48879 -> 
+  custom:scripting/monoscript/fileName/ShineEffector.cs: 52ed4eb6c7ed8f674a18d2a4db6eba86 -> 
+  custom:scripting/monoscript/fileName/ReorderableListElement.cs: 788a31431a1c95dc9a9a52767f8e812f -> 
+  custom:scripting/monoscript/fileName/UISelectableExtension.cs: b6766007d8a2236e23d4749da2d8cdd2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UISoftAdditiveEffect.cs: 30a825933c907dec19605ff2f58a292f -> 
+  custom:scripting/monoscript/fileName/HexColorField.cs: 425eeca1ce4159bc649962b2337061a4 -> 
+  custom:scripting/monoscript/fileName/ColorPickerControl.cs: 97231f899ae243cc634f34e048c22095 -> 
+  custom:scripting/monoscript/fileName/ReorderableListDebug.cs: 51cf5a188c464deb681bea16cb795b61 -> 
+  custom:scripting/monoscript/fileName/TextPic.cs: 9dbd7bc654cbf19eee33ac6fc452bfb1 -> 
+  custom:scripting/monoscript/fileName/CUIImage.cs: 41f29f650aa507f802cd9793d91f3211 -> 
+  custom:scripting/monoscript/fileName/DropDownListButton.cs: 71d533f2602e0e099d09a556ef8e4414 -> 
+  custom:scripting/monoscript/fileName/ScrollSnap.cs: c5ae67ed5cc8c0ab1f7496803acc2648 -> 
+  custom:scripting/monoscript/fileName/TextPicIconListCopier.cs: a564a2a474c019b98650cff2383ccfca -> 
+  custom:scripting/monoscript/fileName/UICornerCut.cs: 69b0dfb485aa2b1afa65fcf30028125b -> 
+  custom:scripting/monoscript/fileName/ScrollerEditor.cs: 478519b80ad2bc62d4a4b80ae078e694 -> 
+  custom:scripting/monoscript/fileName/IBoxSelectable.cs: a5bf39a694cf2b84c65e7bec998d4941 -> 
+  custom:scripting/monoscript/fileName/TiltWindow.cs: 7c3356d1b5bc9c6e9fe98345b0be7c30 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 943bd8dac5ce9467ce7deb0856dc6b0a -> 
+  custom:scripting/monoscript/fileName/ComboBox.cs: a6ca48dde827ff07a9093f3624d58e62 -> 
+  custom:scripting/monoscript/fileName/ScrollRectLinker.cs: 0316116e17d192ca2ef7c97539dff50f -> 
+  custom:scripting/monoscript/fileName/SVBoxSlider.cs: 1d22c9c16d63e1cf38ad19bbcec9a0da -> 
+  custom:scripting/monoscript/fileName/VerticalScrollSnap.cs: a7ebcf1fac8331e70ee01e540cbe484b -> 
+  custom:scripting/monoscript/fileName/UILineConnector.cs: ea5f69a32957fe35ae7b512ef3f758ef -> 
+  custom:scripting/monoscript/fileName/UIScreenEffect.cs: c36542c529d1f733362556ab22c18bf9 -> 
+  custom:scripting/monoscript/fileName/SoftMaskScript.cs: 867049fb2647c9983fb1391409f93d30 -> 
+  custom:scripting/monoscript/fileName/DiamondGraph.cs: a01b647a54847840428a395cc0d6fc16 -> 
+  custom:scripting/monoscript/fileName/ScrollRectEx.cs: 3f6a881a34055e182fee3ab0baaee0c3 -> 
+  custom:scripting/monoscript/fileName/UIGridRenderer.cs: 04c0062f4b7cdd6963fdba9ae03d9c72 -> 
+  custom:scripting/monoscript/fileName/NicerOutline.cs: 571a7c7c4af4ebadc9fed23f0c3b0b46 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ScrollRectExtensions.cs: c76cb840404ffa9bc24248639e9da4ee -> 
+  custom:scripting/monoscript/fileName/FancyGridViewContext.cs: 8738476657d4a33c34bc82bed7ce8bc9 -> 
+  custom:scripting/monoscript/fileName/MinMaxValues.cs: 4aa11a61e640749f4ea5f947f86be5ba -> 
+  custom:scripting/monoscript/fileName/CardExpanding3D.cs: d8b2b9924677ad2b445b05edbed7f0e3 -> 
+  custom:scripting/monoscript/fileName/MinMaxSliderEditor.cs: e0496a7f76fc8934af2a763a7289ad36 -> 
+  custom:scripting/monoscript/fileName/StepperSide.cs: 34d9a35c8c2622f327b140f18a7398a7 -> 
+  custom:scripting/monoscript/fileName/CUIGraphicEditor.cs: a618262d3e77d462c5a0cd2e608e8a53 -> 
+  custom:scripting/monoscript/fileName/DropDownList.cs: 3d51ab81e9571c9027b59874b2c78567 -> 
+  custom:scripting/monoscript/fileName/ITweenValue.cs: 1d0eaa4b435fa135e18af6b5fa57e92e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CardExpanding2D.cs: e0950b450275cb3936a581f286a6b471 -> 
+  custom:scripting/monoscript/fileName/ResetSelectableHighlight.cs: 3ea63487fd77e7b22731770a86b4f8b9 -> 
+  custom:scripting/monoscript/fileName/UIScrollToSelection.cs: d89fc8e36bdc19715e3104a5f857d175 -> 
+  custom:scripting/monoscript/fileName/IScrollSnap.cs: 80b4110dac6695d630b8e7501d8e5aa8 -> 
+  custom:scripting/monoscript/fileName/SegmentedControl.cs: 3a6e53207de58cf304ab520e0638e2df -> 
+  custom:scripting/monoscript/fileName/ColorSampler.cs: 617678b91f4adc7b3146f51bed3fc4b1 -> 
+  custom:scripting/monoscript/fileName/TabNavigationHelper.cs: 43f45dc623750048d2fbac24931c8ac8 -> 
+  custom:scripting/monoscript/fileName/AutoCompleteComboBox.cs: 6e2e6cf33d4f5ca4ad3c05ff8f254467 -> 
+  custom:scripting/monoscript/fileName/TextPicEditor.cs: c23216fe996c314d4c496ad837485981 -> 
+  custom:scripting/monoscript/fileName/CUIMisc.cs: bc26c7f132f5cd28304cbc88070ca4dc -> 
+  custom:scripting/monoscript/fileName/UIAdditiveEffect.cs: 50386f7d7d76f5c5e155dbf56c5e5fdd -> 
+  custom:scripting/monoscript/fileName/MonoSpacing.cs: 45ba6bf376dd125375a8906a7d8b8b4b -> 
+  custom:scripting/monoscript/fileName/FloatTween.cs: c51b551f6abec506d0db9945f7aa25cc -> 
+  custom:scripting/monoscript/fileName/BoxSlider.cs: 662335e935a62641f6cb14e99e25e994 -> 
+  custom:scripting/monoscript/fileName/BezierLineRendererEditor.cs: 2a50098be424d999e43b888ace13278c -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: a309796f6d67e4c1c110ec62b4572b4e -> 
+  custom:scripting/monoscript/fileName/ScrollPositionController.cs: 30c392a65a277a4a74b1a6f1a3417601 -> 
+  custom:scripting/monoscript/fileName/ContentScrollSnapHorizontal.cs: cb0bf043572062ce08b48904f46c98c8 -> 
+  custom:scripting/monoscript/fileName/Triangulator.cs: 0fd472f1423376cded7e59b247645a25 -> 
+  custom:scripting/monoscript/fileName/UIImageCrop.cs: 1ec5d1f18ccf3bbe8ea319cda00ecfbc -> 
+  custom:scripting/monoscript/fileName/BoxSliderEditor.cs: 9c680a5a338924fb176605eed0f68a75 -> 
+  custom:scripting/monoscript/fileName/FancyScrollView.cs: c5f9c64ec4b4e183b17919204bc381a9 -> 
+  custom:scripting/monoscript/fileName/BezierPath.cs: 90cbb6f823f7a03c69c93b3e1653c45e -> 
+  custom:scripting/monoscript/fileName/SuperellipsePoints.cs: db2a1c9698f2dea478e1d6bfece554ae -> 
+  custom:scripting/monoscript/fileName/UI_Knob.cs: 00244fb2be3e9e1f5ec3a07f175066a9 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/RaycastMask.cs: b13971e6a124c25b886c6703ae2aab24 -> 
+  custom:scripting/monoscript/fileName/MultiTouchScrollRect.cs: 3a778993ea01435b2502c14ea2b2ff98 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/InputFieldEnterSubmit.cs: cdd5149b8afb8dc59ad57cc53ad8fb3b -> 
+  custom:scripting/monoscript/fileName/ExampleSelectable.cs: 8dc7a8cd606154e7d10bb507e235c1f8 -> 
+  custom:scripting/monoscript/fileName/uGUITools.cs: aa32797d8a9cdcd2167b6be114b0d5ec -> 
+  custom:scripting/monoscript/fileName/UILinearDodgeEffect.cs: f5508d2f3f6addba614d4c08275f4546 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/EasingCore.cs: 0bad7e894488e9b67256d892a478aab1 -> 
+  custom:scripting/monoscript/fileName/Stepper.cs: 3ee1a56034750815f9c567b6c54fbbb8 -> 
+  custom:scripting/monoscript/fileName/UIPrimitiveBase.cs: 80a945e915822efd5c887ee28f76aa9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LetterSpacing.cs: c4f4c504ac9c0b708c438c8a0faf6a96 -> 
+  custom:scripting/monoscript/fileName/UISquircle.cs: faaa67841792f2c90a13db82841ac6e3 -> 
+  custom:scripting/monoscript/fileName/RangeSlider.cs: 026cea0882c5bbc90f7cedc5111cfeb2 -> 
+  custom:scripting/monoscript/fileName/UIExtensionMethods.cs: 2621bff24acfb4ddb3b264b7553588d8 -> 
+  custom:scripting/monoscript/fileName/UIVerticalScroller.cs: 3532ae0d4ba5f6e2c310cfec2c655a8c -> 
+  custom:scripting/monoscript/fileName/ColorLabel.cs: 9a2d62e5e8f65400e4abc881023f36f7 -> 
+  custom:scripting/monoscript/fileName/TooltipTrigger.cs: 546a7d73bc42b9e6f1fd03a7e07d7f29 -> 
+  custom:scripting/monoscript/fileName/UIMultiplyEffect.cs: 29b6f1f4d98d9b61292d829c0030af4b -> 
+  custom:scripting/monoscript/fileName/CardPopup2D.cs: ac929914b8675b3ff1238ddb1cc99789 -> 
+  custom:scripting/monoscript/fileName/ScrollSnapScrollbarHelper.cs: d6b043fd7048156ea2ef4da9da4a0a51 -> 
+  custom:scripting/monoscript/fileName/HoverTooltip.cs: abdf0400bdf15bb8fdc0bc4d5ecc993f -> 
+  custom:scripting/monoscript/fileName/ColorImage.cs: 87dea3e9bf43c94e295d4fa411046c66 -> 
+  custom:scripting/monoscript/fileName/FancyScrollRectContext.cs: 9e5d4d8665c04a1190a3fc52908244b0 -> 
+  custom:scripting/monoscript/fileName/TextPicIconEditor.cs: 1f41560011fcb93d03be374d10238c0c -> 
+  custom:scripting/monoscript/fileName/UI_InfiniteScroll.cs: f7518bdb5ccbb5518282b9c860eef985 -> 
+  custom:scripting/monoscript/fileName/UIExtensionsMenuOptions.cs: 25d3bc76bdcc7be45d732e8f064ec6a7 -> 
+  custom:scripting/monoscript/fileName/ReadOnlyAttribute.cs: 604ae8fbc27d6402b88ac08f1987318f -> 
+  custom:scripting/monoscript/fileName/UICircle.cs: e40253d6117a9fbea82cc285a7e8a36e -> 
+  custom:scripting/monoscript/fileName/UIScrollToSelectionXY.cs: 8145d21a6ef6f8610242d2ba291595b9 -> 
+  custom:scripting/monoscript/fileName/CUITextEditor.cs: 966cced0a631446b9484c2fe777a7f5b -> 
+  custom:scripting/monoscript/fileName/TweenRunner.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/UIHorizontalScroller.cs: 758f016ad67e22eff0f26468f408f006 -> 
+  custom:scripting/monoscript/fileName/ReturnKeyTriggersButton.cs: 622f27a1a5fce3f8fe14f0fe6c6b39b5 -> 
+  custom:scripting/monoscript/fileName/FancyGridViewCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/Scroller.cs: 94938ad1cd7c20206a0339e3bd7f3330 -> 
+  custom:scripting/monoscript/fileName/CylinderText.cs: 86c073c10ed890f8e108be86fb350e35 -> 
+  custom:scripting/monoscript/fileName/ColorPickerPresets.cs: d20309ac183a87fd46c2e0a03ba5bdef -> 
+  custom:scripting/monoscript/fileName/RadialSlider.cs: 24542b53b379116a4f98bb53a64e13b8 -> 
+  custom:scripting/monoscript/fileName/PPIViewer.cs: 5269fbe050022d597b2ceba1b1d4cbae -> 
+  custom:scripting/monoscript/fileName/InputFocus.cs: 6a5a3b184038cb5e7dbe4882c96bc91b -> 
+  custom:scripting/monoscript/fileName/CUIBezierCurve.cs: 32214df0cb137de9f4967269deffb6f3 -> 
+  custom:scripting/monoscript/fileName/DropDownListItem.cs: 91c61fd79335f34fb81e114553bf8888 -> 
+  custom:scripting/monoscript/fileName/UIFlippable.cs: 9c843e180ea4b6afe9c1ba071336e124 -> 
+  custom:scripting/monoscript/fileName/CanvasGroupActivator.cs: f743e9c6e47b0eb8c0b7b2fbf9f7de19 -> 
+  custom:scripting/monoscript/fileName/UIWindowBase.cs: 776e605614a77fffd4e0147c8e684e94 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ScrollPositionControllerEditor.cs: fb86570a90d8d5b779234b7f103e1b51 -> 
+  custom:scripting/monoscript/fileName/CurvedLayout.cs: 46917779e317aa4a214ea430689de312 -> 
+  custom:scripting/monoscript/fileName/ScrollConflictManager.cs: 1a474b2432b80a8b7211f13c79bb991c -> 
+  custom:scripting/monoscript/fileName/ReadOnlyDrawer.cs: 1c0aa6472b8e40c24f66a5805d818994 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FancyGridView.cs: 849ed7f5b11c9db237ef61b01c5a5104 -> 
+  custom:scripting/monoscript/fileName/CableCurve.cs: 1ed0592bfc80d3ca3db7b55e9a6e9d9a -> 
+  custom:scripting/monoscript/fileName/PaginationManager.cs: b5c7a38e1c9bde92ca052679632bc9f1 -> 
+  custom:scripting/monoscript/fileName/UILineTextureRenderer.cs: f3042185c83712ad42b2d6694b56f8d3 -> 
+  custom:scripting/monoscript/fileName/MenuManager.cs: 8e71de17d45faf11b5ca3e63d3867170 -> 
+  custom:scripting/monoscript/fileName/ColorPickerPresetsEditor.cs: 57bebb34d006d8305e8cd353ea00f28b -> 
+  custom:scripting/monoscript/fileName/UI_MagneticInfiniteScroll.cs: 7f0db092e1c52c826e7ccbefe21fe7ce -> 
+  custom:scripting/monoscript/fileName/ToolTip.cs: 2f05f936126a769ca9a98ef6920928a7 -> 
+  custom:scripting/monoscript/fileName/TextPicRenameEditor.cs: b67a1588d964fe3ac177da9872e96689 -> 
+  custom:scripting/monoscript/fileName/TestCompression.cs: 2a18178f72c1b3979b9006483863f20e -> 
+  custom:scripting/monoscript/fileName/IFancyScrollRectContext.cs: 9c4dee0aef526d67eb0a668a1c9b910a -> 
+  custom:scripting/monoscript/fileName/ColorChangedEvent.cs: bafb161b451089e6c72bcae877e0ba66 -> 
+  custom:scripting/monoscript/fileName/BestFitOutline.cs: 2ec1c68346f5b721e3d92092cd60b278 -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphicEditor.cs: 1e7abd1e1a4d3da38de70c6d38c19118 -> 
+  custom:scripting/monoscript/fileName/HSVChangedEvent.cs: 8a0d7f505f4db7e267a03264293f54eb -> 
+  custom:scripting/monoscript/fileName/CUIImageEditor.cs: 0be5a4365a8d65680f88c4d192e5254c -> 
+  custom:scripting/monoscript/fileName/HorizontalScrollSnap.cs: 624447835d67a70d90ed2b7f69117316 -> 
+  custom:scripting/monoscript/fileName/UI_TweenScale.cs: 50a18c41daf615d82dc37ef0e9dcea31 -> 
+  custom:scripting/monoscript/fileName/BoundTooltipItem.cs: 12dc26af634677e40fd7840809357e6c -> 
+  custom:scripting/monoscript/fileName/AccordionElement.cs: 69f1a7e537099cc57de9b6eaa86cef32 -> 
+  custom:scripting/monoscript/fileName/UI_ScrollRectOcclusion.cs: 491f1c2592ac821eb8de9e533fddd4a9 -> 
+  custom:scripting/monoscript/fileName/CUIBezierCurveEditor.cs: be4462c6de2387d5f99ef9d0e93b91ee -> 
+  custom:scripting/monoscript/fileName/ColorSliderImage.cs: bbcbfbf23dc2f9fc5450db8f36b24487 -> 
+  custom:scripting/monoscript/fileName/Accordion.cs: c31898dc7ffd6f7b32be5689419229bc -> 
+  custom:scripting/monoscript/fileName/FancyCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ShineEffect.cs: 61d233269c4ea687efa548adef5d6e13 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ScrollRectTweener.cs: 3437a8fb18bed84a45865e36e83e332f -> 
+  custom:scripting/monoscript/fileName/MeshCreator.cs: a2506ad04bac2e5a6d6d50e0d7978d92 -> 
+  custom:scripting/monoscript/fileName/UIPolygon.cs: ef7b3e02606f58c56a27e65db10bc7f3 -> 
+  custom:scripting/monoscript/fileName/switchToRectTransform.cs: 0ef297259b7f2ab26defc1d718ad1e0a -> 
+  custom:scripting/monoscript/fileName/UILineRendererList.cs: efbf4ff76c31aa3e4f61c8b26734d929 -> 
+  custom:scripting/monoscript/fileName/CLZF2.cs: 40ef7bf6191a1a5e5b0f37e092e1b271 -> 
+  custom:scripting/monoscript/fileName/SimpleMenu.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/RescalePanel.cs: a379a55181438e3b7a29019da8a3c82c -> 
+  custom:scripting/monoscript/fileName/DragCorrector.cs: 89ab4a0369eecb75be2277a80a08c1e7 -> 
+  custom:scripting/monoscript/fileName/RangeSliderEditor.cs: 1c09cdb4e75bc10f834bbae9a7b54e1e -> 
+  custom:scripting/monoscript/fileName/FancyScrollRect.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ReorderableList.cs: 944c8e214787d07461c711b29546f976 -> 
+  custom:scripting/monoscript/fileName/RadialLayout.cs: 170f31c5fdb54a9fe7ba926effdfd7d4 -> 
+  custom:scripting/monoscript/fileName/ColorSlider.cs: a91d06b853e0bf2d5df3ea61a67d5c83 -> 
+  custom:scripting/monoscript/fileName/IFancyGridViewContext.cs: be7addf49e5950ebb654fec55c2afa8b -> 
+  custom:scripting/monoscript/fileName/CUIGraphic.cs: 4f47fad340418bff51fe6171e2259e7f -> 
+  custom:scripting/monoscript/fileName/IFancyCellGroupContext.cs: 323b5f49cc2011b3d2d9088e528ed161 -> 
+  custom:scripting/monoscript/fileName/MinMaxSlider.cs: e7d98a511e8b98df33f72f37935821e5 -> 
+  custom:scripting/monoscript/fileName/ColorPickerTester.cs: 63b6c03c009a94721b9d41c8d5e5e6ed -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\UrbanHackathon 2024\Unity\CityHackathon_0\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\UrbanHackathon 2024\Unity\CityHackathon_0\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.794 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.325 seconds
+Domain Reload Profiling: 2117ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (325ms)
+			TypeCache.Refresh (319ms)
+				TypeCache.ScanAssembly (308ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (811ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (617ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3536 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.4 KB). Loaded Objects now: 4048.
+Memory consumption went from 202.1 MB to 202.1 MB.
+Total: 3.976700 ms (FindLiveObjects: 0.336700 ms CreateObjectMapping: 0.296500 ms MarkObjects: 3.244400 ms  DeleteObjects: 0.098000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CardStack2D.cs: 52f7ac406c04f320c1cc31b32fc945ec -> 
+  custom:scripting/monoscript/fileName/UILineRendererFIFO.cs: 1a840d7d842445f62c20beee85a5bbc5 -> 
+  custom:scripting/monoscript/fileName/FlowLayoutGroup.cs: 4f8c51e99186127173631d5ea0b848a8 -> 
+  custom:scripting/monoscript/fileName/UIParticleSystem.cs: 6cef203566a0c9333597e4e233613614 -> 
+  custom:scripting/monoscript/fileName/UILineRenderer.cs: 673f1b621ab4781ac78770b1b3c45207 -> 
+  custom:scripting/monoscript/fileName/TableLayoutGroup.cs: 9697d88a99d4c91003d206b86eed3a61 -> 
+  custom:scripting/monoscript/fileName/Segment.cs: 823b994f6bbb6e32f73e9807948df6b3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SelectionBox.cs: 9eabc2822607d24d284c5c0d720d4a01 -> 
+  custom:scripting/monoscript/fileName/ReorderableListContent.cs: a630238339e5f198f723ac29a2329f6d -> 
+  custom:scripting/monoscript/fileName/SetPropertyUtility.cs: 02aade692758e5563210cc05829e9851 -> f604b4b9e6b0979bdfc1e2b40426dd19
+  custom:scripting/monoscript/fileName/HSVUtil.cs: 2f204c7a89b046fae714aadbcda42851 -> 
+  custom:scripting/monoscript/fileName/FancyCellGroup.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/RescaleDragPanel.cs: 428e5a10a21f2d3fc3805557487d591e -> 
+  custom:scripting/monoscript/fileName/ExtensionsToggleGroup.cs: 93967f93faef61aecdca9232fa42b062 -> 
+  custom:scripting/monoscript/fileName/ResizePanel.cs: 0a2d1269c62cba913a254b515f8b6020 -> 
+  custom:scripting/monoscript/fileName/Circle.cs: cfc2369c92dd039be7c3f572f769fdcf -> 
+  custom:scripting/monoscript/fileName/ShaderLibrary.cs: 7a09676978959734a6827051c965f749 -> 
+  custom:scripting/monoscript/fileName/CurvedText.cs: c86aabacdca275700720e919fc8a8b52 -> 
+  custom:scripting/monoscript/fileName/FancyScrollRectCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/Gradient.cs: a4c2a5a25440c543cd82653fda832632 -> 
+  custom:scripting/monoscript/fileName/ScrollSnapBase.cs: 3682088473625968e7b4647a6b4213f6 -> 
+  custom:scripting/monoscript/fileName/CUIText.cs: 0be1a405bc9388e4813a74aad6018bec -> 
+  custom:scripting/monoscript/fileName/BoundTooltipTrigger.cs: e78e2ee612ba85e075ab794a5cb95e73 -> 
+  custom:scripting/monoscript/fileName/UIHighlightable.cs: fd305ad78204cb75a66ce809c3f50e6a -> 
+  custom:scripting/monoscript/fileName/UIExtensionsInputManager.cs: 6f468ddae971c3bcce0288549c1beabd -> 
+  custom:scripting/monoscript/fileName/Gradient2.cs: 9c1fd6257924e43a80b8fccb859d3828 -> 
+  custom:scripting/monoscript/fileName/CooldownButton.cs: 72bd21b90ac71f29908a36179176f8fc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TileSizeFitter.cs: ba6326e335b6f177a627b992c444832c -> 
+  custom:scripting/monoscript/fileName/SelectableScaler.cs: 3ebe175d64b38a572f8dbe8fd345f0c3 -> 
+  custom:scripting/monoscript/fileName/AccordionElementEditor.cs: db5ee9b2cff22578a12a4d141614d665 -> 
+  custom:scripting/monoscript/fileName/ExtensionsToggle.cs: e0b44aa7e1ff973d74b4857a34a48879 -> 
+  custom:scripting/monoscript/fileName/ShineEffector.cs: 52ed4eb6c7ed8f674a18d2a4db6eba86 -> 
+  custom:scripting/monoscript/fileName/ReorderableListElement.cs: 788a31431a1c95dc9a9a52767f8e812f -> 
+  custom:scripting/monoscript/fileName/UISelectableExtension.cs: b6766007d8a2236e23d4749da2d8cdd2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UISoftAdditiveEffect.cs: 30a825933c907dec19605ff2f58a292f -> 
+  custom:scripting/monoscript/fileName/HexColorField.cs: 425eeca1ce4159bc649962b2337061a4 -> 
+  custom:scripting/monoscript/fileName/ColorPickerControl.cs: 97231f899ae243cc634f34e048c22095 -> 
+  custom:scripting/monoscript/fileName/ReorderableListDebug.cs: 51cf5a188c464deb681bea16cb795b61 -> 
+  custom:scripting/monoscript/fileName/TextPic.cs: 9dbd7bc654cbf19eee33ac6fc452bfb1 -> 
+  custom:scripting/monoscript/fileName/CUIImage.cs: 41f29f650aa507f802cd9793d91f3211 -> 
+  custom:scripting/monoscript/fileName/DropDownListButton.cs: 71d533f2602e0e099d09a556ef8e4414 -> 
+  custom:scripting/monoscript/fileName/ScrollSnap.cs: c5ae67ed5cc8c0ab1f7496803acc2648 -> 
+  custom:scripting/monoscript/fileName/TextPicIconListCopier.cs: a564a2a474c019b98650cff2383ccfca -> 
+  custom:scripting/monoscript/fileName/UICornerCut.cs: 69b0dfb485aa2b1afa65fcf30028125b -> 
+  custom:scripting/monoscript/fileName/ScrollerEditor.cs: 478519b80ad2bc62d4a4b80ae078e694 -> 
+  custom:scripting/monoscript/fileName/IBoxSelectable.cs: a5bf39a694cf2b84c65e7bec998d4941 -> 
+  custom:scripting/monoscript/fileName/TiltWindow.cs: 7c3356d1b5bc9c6e9fe98345b0be7c30 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 943bd8dac5ce9467ce7deb0856dc6b0a -> 
+  custom:scripting/monoscript/fileName/ComboBox.cs: a6ca48dde827ff07a9093f3624d58e62 -> 
+  custom:scripting/monoscript/fileName/ScrollRectLinker.cs: 0316116e17d192ca2ef7c97539dff50f -> 
+  custom:scripting/monoscript/fileName/SVBoxSlider.cs: 1d22c9c16d63e1cf38ad19bbcec9a0da -> 
+  custom:scripting/monoscript/fileName/VerticalScrollSnap.cs: a7ebcf1fac8331e70ee01e540cbe484b -> 
+  custom:scripting/monoscript/fileName/UILineConnector.cs: ea5f69a32957fe35ae7b512ef3f758ef -> 
+  custom:scripting/monoscript/fileName/UIScreenEffect.cs: c36542c529d1f733362556ab22c18bf9 -> 
+  custom:scripting/monoscript/fileName/SoftMaskScript.cs: 867049fb2647c9983fb1391409f93d30 -> 
+  custom:scripting/monoscript/fileName/DiamondGraph.cs: a01b647a54847840428a395cc0d6fc16 -> 
+  custom:scripting/monoscript/fileName/ScrollRectEx.cs: 3f6a881a34055e182fee3ab0baaee0c3 -> 
+  custom:scripting/monoscript/fileName/UIGridRenderer.cs: 04c0062f4b7cdd6963fdba9ae03d9c72 -> 
+  custom:scripting/monoscript/fileName/NicerOutline.cs: 571a7c7c4af4ebadc9fed23f0c3b0b46 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ScrollRectExtensions.cs: c76cb840404ffa9bc24248639e9da4ee -> 
+  custom:scripting/monoscript/fileName/FancyGridViewContext.cs: 8738476657d4a33c34bc82bed7ce8bc9 -> 
+  custom:scripting/monoscript/fileName/MinMaxValues.cs: 4aa11a61e640749f4ea5f947f86be5ba -> 
+  custom:scripting/monoscript/fileName/CardExpanding3D.cs: d8b2b9924677ad2b445b05edbed7f0e3 -> 
+  custom:scripting/monoscript/fileName/MinMaxSliderEditor.cs: e0496a7f76fc8934af2a763a7289ad36 -> 
+  custom:scripting/monoscript/fileName/StepperSide.cs: 34d9a35c8c2622f327b140f18a7398a7 -> 
+  custom:scripting/monoscript/fileName/CUIGraphicEditor.cs: a618262d3e77d462c5a0cd2e608e8a53 -> 
+  custom:scripting/monoscript/fileName/DropDownList.cs: 3d51ab81e9571c9027b59874b2c78567 -> 
+  custom:scripting/monoscript/fileName/ITweenValue.cs: 1d0eaa4b435fa135e18af6b5fa57e92e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CardExpanding2D.cs: e0950b450275cb3936a581f286a6b471 -> 
+  custom:scripting/monoscript/fileName/ResetSelectableHighlight.cs: 3ea63487fd77e7b22731770a86b4f8b9 -> 
+  custom:scripting/monoscript/fileName/UIScrollToSelection.cs: d89fc8e36bdc19715e3104a5f857d175 -> 
+  custom:scripting/monoscript/fileName/IScrollSnap.cs: 80b4110dac6695d630b8e7501d8e5aa8 -> 
+  custom:scripting/monoscript/fileName/SegmentedControl.cs: 3a6e53207de58cf304ab520e0638e2df -> 
+  custom:scripting/monoscript/fileName/ColorSampler.cs: 617678b91f4adc7b3146f51bed3fc4b1 -> 
+  custom:scripting/monoscript/fileName/TabNavigationHelper.cs: 43f45dc623750048d2fbac24931c8ac8 -> 
+  custom:scripting/monoscript/fileName/AutoCompleteComboBox.cs: 6e2e6cf33d4f5ca4ad3c05ff8f254467 -> 
+  custom:scripting/monoscript/fileName/TextPicEditor.cs: c23216fe996c314d4c496ad837485981 -> 
+  custom:scripting/monoscript/fileName/CUIMisc.cs: bc26c7f132f5cd28304cbc88070ca4dc -> 
+  custom:scripting/monoscript/fileName/UIAdditiveEffect.cs: 50386f7d7d76f5c5e155dbf56c5e5fdd -> 
+  custom:scripting/monoscript/fileName/MonoSpacing.cs: 45ba6bf376dd125375a8906a7d8b8b4b -> 
+  custom:scripting/monoscript/fileName/FloatTween.cs: c51b551f6abec506d0db9945f7aa25cc -> 
+  custom:scripting/monoscript/fileName/BoxSlider.cs: 662335e935a62641f6cb14e99e25e994 -> 
+  custom:scripting/monoscript/fileName/BezierLineRendererEditor.cs: 2a50098be424d999e43b888ace13278c -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: a309796f6d67e4c1c110ec62b4572b4e -> 
+  custom:scripting/monoscript/fileName/ScrollPositionController.cs: 30c392a65a277a4a74b1a6f1a3417601 -> 
+  custom:scripting/monoscript/fileName/ContentScrollSnapHorizontal.cs: cb0bf043572062ce08b48904f46c98c8 -> 
+  custom:scripting/monoscript/fileName/Triangulator.cs: 0fd472f1423376cded7e59b247645a25 -> 
+  custom:scripting/monoscript/fileName/UIImageCrop.cs: 1ec5d1f18ccf3bbe8ea319cda00ecfbc -> 
+  custom:scripting/monoscript/fileName/BoxSliderEditor.cs: 9c680a5a338924fb176605eed0f68a75 -> 
+  custom:scripting/monoscript/fileName/FancyScrollView.cs: c5f9c64ec4b4e183b17919204bc381a9 -> 
+  custom:scripting/monoscript/fileName/BezierPath.cs: 90cbb6f823f7a03c69c93b3e1653c45e -> 
+  custom:scripting/monoscript/fileName/SuperellipsePoints.cs: db2a1c9698f2dea478e1d6bfece554ae -> 
+  custom:scripting/monoscript/fileName/UI_Knob.cs: 00244fb2be3e9e1f5ec3a07f175066a9 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/RaycastMask.cs: b13971e6a124c25b886c6703ae2aab24 -> 
+  custom:scripting/monoscript/fileName/MultiTouchScrollRect.cs: 3a778993ea01435b2502c14ea2b2ff98 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/InputFieldEnterSubmit.cs: cdd5149b8afb8dc59ad57cc53ad8fb3b -> 
+  custom:scripting/monoscript/fileName/ExampleSelectable.cs: 8dc7a8cd606154e7d10bb507e235c1f8 -> 
+  custom:scripting/monoscript/fileName/uGUITools.cs: aa32797d8a9cdcd2167b6be114b0d5ec -> 
+  custom:scripting/monoscript/fileName/UILinearDodgeEffect.cs: f5508d2f3f6addba614d4c08275f4546 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/EasingCore.cs: 0bad7e894488e9b67256d892a478aab1 -> 
+  custom:scripting/monoscript/fileName/Stepper.cs: 3ee1a56034750815f9c567b6c54fbbb8 -> 
+  custom:scripting/monoscript/fileName/UIPrimitiveBase.cs: 80a945e915822efd5c887ee28f76aa9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LetterSpacing.cs: c4f4c504ac9c0b708c438c8a0faf6a96 -> 
+  custom:scripting/monoscript/fileName/UISquircle.cs: faaa67841792f2c90a13db82841ac6e3 -> 
+  custom:scripting/monoscript/fileName/RangeSlider.cs: 026cea0882c5bbc90f7cedc5111cfeb2 -> 
+  custom:scripting/monoscript/fileName/UIExtensionMethods.cs: 2621bff24acfb4ddb3b264b7553588d8 -> 
+  custom:scripting/monoscript/fileName/UIVerticalScroller.cs: 3532ae0d4ba5f6e2c310cfec2c655a8c -> 
+  custom:scripting/monoscript/fileName/ColorLabel.cs: 9a2d62e5e8f65400e4abc881023f36f7 -> 
+  custom:scripting/monoscript/fileName/TooltipTrigger.cs: 546a7d73bc42b9e6f1fd03a7e07d7f29 -> 
+  custom:scripting/monoscript/fileName/UIMultiplyEffect.cs: 29b6f1f4d98d9b61292d829c0030af4b -> 
+  custom:scripting/monoscript/fileName/CardPopup2D.cs: ac929914b8675b3ff1238ddb1cc99789 -> 
+  custom:scripting/monoscript/fileName/ScrollSnapScrollbarHelper.cs: d6b043fd7048156ea2ef4da9da4a0a51 -> 
+  custom:scripting/monoscript/fileName/HoverTooltip.cs: abdf0400bdf15bb8fdc0bc4d5ecc993f -> 
+  custom:scripting/monoscript/fileName/ColorImage.cs: 87dea3e9bf43c94e295d4fa411046c66 -> 
+  custom:scripting/monoscript/fileName/FancyScrollRectContext.cs: 9e5d4d8665c04a1190a3fc52908244b0 -> 
+  custom:scripting/monoscript/fileName/TextPicIconEditor.cs: 1f41560011fcb93d03be374d10238c0c -> 
+  custom:scripting/monoscript/fileName/UI_InfiniteScroll.cs: f7518bdb5ccbb5518282b9c860eef985 -> 
+  custom:scripting/monoscript/fileName/UIExtensionsMenuOptions.cs: 25d3bc76bdcc7be45d732e8f064ec6a7 -> 
+  custom:scripting/monoscript/fileName/ReadOnlyAttribute.cs: 604ae8fbc27d6402b88ac08f1987318f -> 
+  custom:scripting/monoscript/fileName/UICircle.cs: e40253d6117a9fbea82cc285a7e8a36e -> 
+  custom:scripting/monoscript/fileName/UIScrollToSelectionXY.cs: 8145d21a6ef6f8610242d2ba291595b9 -> 
+  custom:scripting/monoscript/fileName/CUITextEditor.cs: 966cced0a631446b9484c2fe777a7f5b -> 
+  custom:scripting/monoscript/fileName/TweenRunner.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/UIHorizontalScroller.cs: 758f016ad67e22eff0f26468f408f006 -> 
+  custom:scripting/monoscript/fileName/ReturnKeyTriggersButton.cs: 622f27a1a5fce3f8fe14f0fe6c6b39b5 -> 
+  custom:scripting/monoscript/fileName/FancyGridViewCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/Scroller.cs: 94938ad1cd7c20206a0339e3bd7f3330 -> 
+  custom:scripting/monoscript/fileName/CylinderText.cs: 86c073c10ed890f8e108be86fb350e35 -> 
+  custom:scripting/monoscript/fileName/ColorPickerPresets.cs: d20309ac183a87fd46c2e0a03ba5bdef -> 
+  custom:scripting/monoscript/fileName/RadialSlider.cs: 24542b53b379116a4f98bb53a64e13b8 -> 
+  custom:scripting/monoscript/fileName/PPIViewer.cs: 5269fbe050022d597b2ceba1b1d4cbae -> 
+  custom:scripting/monoscript/fileName/InputFocus.cs: 6a5a3b184038cb5e7dbe4882c96bc91b -> 
+  custom:scripting/monoscript/fileName/CUIBezierCurve.cs: 32214df0cb137de9f4967269deffb6f3 -> 
+  custom:scripting/monoscript/fileName/DropDownListItem.cs: 91c61fd79335f34fb81e114553bf8888 -> 
+  custom:scripting/monoscript/fileName/UIFlippable.cs: 9c843e180ea4b6afe9c1ba071336e124 -> 
+  custom:scripting/monoscript/fileName/CanvasGroupActivator.cs: f743e9c6e47b0eb8c0b7b2fbf9f7de19 -> 
+  custom:scripting/monoscript/fileName/UIWindowBase.cs: 776e605614a77fffd4e0147c8e684e94 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ScrollPositionControllerEditor.cs: fb86570a90d8d5b779234b7f103e1b51 -> 
+  custom:scripting/monoscript/fileName/CurvedLayout.cs: 46917779e317aa4a214ea430689de312 -> 
+  custom:scripting/monoscript/fileName/ScrollConflictManager.cs: 1a474b2432b80a8b7211f13c79bb991c -> 
+  custom:scripting/monoscript/fileName/ReadOnlyDrawer.cs: 1c0aa6472b8e40c24f66a5805d818994 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FancyGridView.cs: 849ed7f5b11c9db237ef61b01c5a5104 -> 
+  custom:scripting/monoscript/fileName/CableCurve.cs: 1ed0592bfc80d3ca3db7b55e9a6e9d9a -> 
+  custom:scripting/monoscript/fileName/PaginationManager.cs: b5c7a38e1c9bde92ca052679632bc9f1 -> 
+  custom:scripting/monoscript/fileName/UILineTextureRenderer.cs: f3042185c83712ad42b2d6694b56f8d3 -> 
+  custom:scripting/monoscript/fileName/MenuManager.cs: 8e71de17d45faf11b5ca3e63d3867170 -> 
+  custom:scripting/monoscript/fileName/ColorPickerPresetsEditor.cs: 57bebb34d006d8305e8cd353ea00f28b -> 
+  custom:scripting/monoscript/fileName/UI_MagneticInfiniteScroll.cs: 7f0db092e1c52c826e7ccbefe21fe7ce -> 
+  custom:scripting/monoscript/fileName/ToolTip.cs: 2f05f936126a769ca9a98ef6920928a7 -> 
+  custom:scripting/monoscript/fileName/TextPicRenameEditor.cs: b67a1588d964fe3ac177da9872e96689 -> 
+  custom:scripting/monoscript/fileName/TestCompression.cs: 2a18178f72c1b3979b9006483863f20e -> 
+  custom:scripting/monoscript/fileName/IFancyScrollRectContext.cs: 9c4dee0aef526d67eb0a668a1c9b910a -> 
+  custom:scripting/monoscript/fileName/ColorChangedEvent.cs: bafb161b451089e6c72bcae877e0ba66 -> 
+  custom:scripting/monoscript/fileName/BestFitOutline.cs: 2ec1c68346f5b721e3d92092cd60b278 -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphicEditor.cs: 1e7abd1e1a4d3da38de70c6d38c19118 -> 
+  custom:scripting/monoscript/fileName/HSVChangedEvent.cs: 8a0d7f505f4db7e267a03264293f54eb -> 
+  custom:scripting/monoscript/fileName/CUIImageEditor.cs: 0be5a4365a8d65680f88c4d192e5254c -> 
+  custom:scripting/monoscript/fileName/HorizontalScrollSnap.cs: 624447835d67a70d90ed2b7f69117316 -> 
+  custom:scripting/monoscript/fileName/UI_TweenScale.cs: 50a18c41daf615d82dc37ef0e9dcea31 -> 
+  custom:scripting/monoscript/fileName/BoundTooltipItem.cs: 12dc26af634677e40fd7840809357e6c -> 
+  custom:scripting/monoscript/fileName/AccordionElement.cs: 69f1a7e537099cc57de9b6eaa86cef32 -> 
+  custom:scripting/monoscript/fileName/UI_ScrollRectOcclusion.cs: 491f1c2592ac821eb8de9e533fddd4a9 -> 
+  custom:scripting/monoscript/fileName/CUIBezierCurveEditor.cs: be4462c6de2387d5f99ef9d0e93b91ee -> 
+  custom:scripting/monoscript/fileName/ColorSliderImage.cs: bbcbfbf23dc2f9fc5450db8f36b24487 -> 
+  custom:scripting/monoscript/fileName/Accordion.cs: c31898dc7ffd6f7b32be5689419229bc -> 
+  custom:scripting/monoscript/fileName/FancyCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ShineEffect.cs: 61d233269c4ea687efa548adef5d6e13 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ScrollRectTweener.cs: 3437a8fb18bed84a45865e36e83e332f -> 
+  custom:scripting/monoscript/fileName/MeshCreator.cs: a2506ad04bac2e5a6d6d50e0d7978d92 -> 
+  custom:scripting/monoscript/fileName/UIPolygon.cs: ef7b3e02606f58c56a27e65db10bc7f3 -> 
+  custom:scripting/monoscript/fileName/switchToRectTransform.cs: 0ef297259b7f2ab26defc1d718ad1e0a -> 
+  custom:scripting/monoscript/fileName/UILineRendererList.cs: efbf4ff76c31aa3e4f61c8b26734d929 -> 
+  custom:scripting/monoscript/fileName/CLZF2.cs: 40ef7bf6191a1a5e5b0f37e092e1b271 -> 
+  custom:scripting/monoscript/fileName/SimpleMenu.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/RescalePanel.cs: a379a55181438e3b7a29019da8a3c82c -> 
+  custom:scripting/monoscript/fileName/DragCorrector.cs: 89ab4a0369eecb75be2277a80a08c1e7 -> 
+  custom:scripting/monoscript/fileName/RangeSliderEditor.cs: 1c09cdb4e75bc10f834bbae9a7b54e1e -> 
+  custom:scripting/monoscript/fileName/FancyScrollRect.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ReorderableList.cs: 944c8e214787d07461c711b29546f976 -> 
+  custom:scripting/monoscript/fileName/RadialLayout.cs: 170f31c5fdb54a9fe7ba926effdfd7d4 -> 
+  custom:scripting/monoscript/fileName/ColorSlider.cs: a91d06b853e0bf2d5df3ea61a67d5c83 -> 
+  custom:scripting/monoscript/fileName/IFancyGridViewContext.cs: be7addf49e5950ebb654fec55c2afa8b -> 
+  custom:scripting/monoscript/fileName/CUIGraphic.cs: 4f47fad340418bff51fe6171e2259e7f -> 
+  custom:scripting/monoscript/fileName/IFancyCellGroupContext.cs: 323b5f49cc2011b3d2d9088e528ed161 -> 
+  custom:scripting/monoscript/fileName/MinMaxSlider.cs: e7d98a511e8b98df33f72f37935821e5 -> 
+  custom:scripting/monoscript/fileName/ColorPickerTester.cs: 63b6c03c009a94721b9d41c8d5e5e6ed -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1455297.564581 seconds.
+  path: Assets/MobileDepthWater/Models/Materials/No Name.mat
+  artifactKey: Guid(d209692ee0e4b874d860aa138e29fcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MobileDepthWater/Models/Materials/No Name.mat using Guid(d209692ee0e4b874d860aa138e29fcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9486043b0d7f36d8f358b9a632b56048') in 0.124335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\UrbanHackathon 2024\Unity\CityHackathon_0\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\UrbanHackathon 2024\Unity\CityHackathon_0\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.778 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.220 seconds
+Domain Reload Profiling: 1998ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (554ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (321ms)
+			TypeCache.Refresh (315ms)
+				TypeCache.ScanAssembly (304ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1221ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (724ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (545ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3535 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 4092.
+Memory consumption went from 206.6 MB to 206.6 MB.
+Total: 3.677300 ms (FindLiveObjects: 0.300300 ms CreateObjectMapping: 0.270800 ms MarkObjects: 3.061100 ms  DeleteObjects: 0.044100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CardStack2D.cs: 52f7ac406c04f320c1cc31b32fc945ec -> 
+  custom:scripting/monoscript/fileName/UILineRendererFIFO.cs: 1a840d7d842445f62c20beee85a5bbc5 -> 
+  custom:scripting/monoscript/fileName/FlowLayoutGroup.cs: 4f8c51e99186127173631d5ea0b848a8 -> 
+  custom:scripting/monoscript/fileName/UIParticleSystem.cs: 6cef203566a0c9333597e4e233613614 -> 
+  custom:scripting/monoscript/fileName/UILineRenderer.cs: 673f1b621ab4781ac78770b1b3c45207 -> 
+  custom:scripting/monoscript/fileName/TableLayoutGroup.cs: 9697d88a99d4c91003d206b86eed3a61 -> 
+  custom:scripting/monoscript/fileName/Segment.cs: 823b994f6bbb6e32f73e9807948df6b3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SelectionBox.cs: 9eabc2822607d24d284c5c0d720d4a01 -> 
+  custom:scripting/monoscript/fileName/ReorderableListContent.cs: a630238339e5f198f723ac29a2329f6d -> 
+  custom:scripting/monoscript/fileName/SetPropertyUtility.cs: 02aade692758e5563210cc05829e9851 -> f604b4b9e6b0979bdfc1e2b40426dd19
+  custom:scripting/monoscript/fileName/HSVUtil.cs: 2f204c7a89b046fae714aadbcda42851 -> 
+  custom:scripting/monoscript/fileName/FancyCellGroup.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/RescaleDragPanel.cs: 428e5a10a21f2d3fc3805557487d591e -> 
+  custom:scripting/monoscript/fileName/ExtensionsToggleGroup.cs: 93967f93faef61aecdca9232fa42b062 -> 
+  custom:scripting/monoscript/fileName/ResizePanel.cs: 0a2d1269c62cba913a254b515f8b6020 -> 
+  custom:scripting/monoscript/fileName/Circle.cs: cfc2369c92dd039be7c3f572f769fdcf -> 
+  custom:scripting/monoscript/fileName/ShaderLibrary.cs: 7a09676978959734a6827051c965f749 -> 
+  custom:scripting/monoscript/fileName/CurvedText.cs: c86aabacdca275700720e919fc8a8b52 -> 
+  custom:scripting/monoscript/fileName/FancyScrollRectCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/Gradient.cs: a4c2a5a25440c543cd82653fda832632 -> 
+  custom:scripting/monoscript/fileName/ScrollSnapBase.cs: 3682088473625968e7b4647a6b4213f6 -> 
+  custom:scripting/monoscript/fileName/CUIText.cs: 0be1a405bc9388e4813a74aad6018bec -> 
+  custom:scripting/monoscript/fileName/BoundTooltipTrigger.cs: e78e2ee612ba85e075ab794a5cb95e73 -> 
+  custom:scripting/monoscript/fileName/UIHighlightable.cs: fd305ad78204cb75a66ce809c3f50e6a -> 
+  custom:scripting/monoscript/fileName/UIExtensionsInputManager.cs: 6f468ddae971c3bcce0288549c1beabd -> 
+  custom:scripting/monoscript/fileName/Gradient2.cs: 9c1fd6257924e43a80b8fccb859d3828 -> 
+  custom:scripting/monoscript/fileName/CooldownButton.cs: 72bd21b90ac71f29908a36179176f8fc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TileSizeFitter.cs: ba6326e335b6f177a627b992c444832c -> 
+  custom:scripting/monoscript/fileName/SelectableScaler.cs: 3ebe175d64b38a572f8dbe8fd345f0c3 -> 
+  custom:scripting/monoscript/fileName/AccordionElementEditor.cs: db5ee9b2cff22578a12a4d141614d665 -> 
+  custom:scripting/monoscript/fileName/ExtensionsToggle.cs: e0b44aa7e1ff973d74b4857a34a48879 -> 
+  custom:scripting/monoscript/fileName/ShineEffector.cs: 52ed4eb6c7ed8f674a18d2a4db6eba86 -> 
+  custom:scripting/monoscript/fileName/ReorderableListElement.cs: 788a31431a1c95dc9a9a52767f8e812f -> 
+  custom:scripting/monoscript/fileName/UISelectableExtension.cs: b6766007d8a2236e23d4749da2d8cdd2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UISoftAdditiveEffect.cs: 30a825933c907dec19605ff2f58a292f -> 
+  custom:scripting/monoscript/fileName/HexColorField.cs: 425eeca1ce4159bc649962b2337061a4 -> 
+  custom:scripting/monoscript/fileName/ColorPickerControl.cs: 97231f899ae243cc634f34e048c22095 -> 
+  custom:scripting/monoscript/fileName/ReorderableListDebug.cs: 51cf5a188c464deb681bea16cb795b61 -> 
+  custom:scripting/monoscript/fileName/TextPic.cs: 9dbd7bc654cbf19eee33ac6fc452bfb1 -> 
+  custom:scripting/monoscript/fileName/CUIImage.cs: 41f29f650aa507f802cd9793d91f3211 -> 
+  custom:scripting/monoscript/fileName/DropDownListButton.cs: 71d533f2602e0e099d09a556ef8e4414 -> 
+  custom:scripting/monoscript/fileName/ScrollSnap.cs: c5ae67ed5cc8c0ab1f7496803acc2648 -> 
+  custom:scripting/monoscript/fileName/TextPicIconListCopier.cs: a564a2a474c019b98650cff2383ccfca -> 
+  custom:scripting/monoscript/fileName/UICornerCut.cs: 69b0dfb485aa2b1afa65fcf30028125b -> 
+  custom:scripting/monoscript/fileName/ScrollerEditor.cs: 478519b80ad2bc62d4a4b80ae078e694 -> 
+  custom:scripting/monoscript/fileName/IBoxSelectable.cs: a5bf39a694cf2b84c65e7bec998d4941 -> 
+  custom:scripting/monoscript/fileName/TiltWindow.cs: 7c3356d1b5bc9c6e9fe98345b0be7c30 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 943bd8dac5ce9467ce7deb0856dc6b0a -> 
+  custom:scripting/monoscript/fileName/ComboBox.cs: a6ca48dde827ff07a9093f3624d58e62 -> 
+  custom:scripting/monoscript/fileName/ScrollRectLinker.cs: 0316116e17d192ca2ef7c97539dff50f -> 
+  custom:scripting/monoscript/fileName/SVBoxSlider.cs: 1d22c9c16d63e1cf38ad19bbcec9a0da -> 
+  custom:scripting/monoscript/fileName/VerticalScrollSnap.cs: a7ebcf1fac8331e70ee01e540cbe484b -> 
+  custom:scripting/monoscript/fileName/UILineConnector.cs: ea5f69a32957fe35ae7b512ef3f758ef -> 
+  custom:scripting/monoscript/fileName/UIScreenEffect.cs: c36542c529d1f733362556ab22c18bf9 -> 
+  custom:scripting/monoscript/fileName/SoftMaskScript.cs: 867049fb2647c9983fb1391409f93d30 -> 
+  custom:scripting/monoscript/fileName/DiamondGraph.cs: a01b647a54847840428a395cc0d6fc16 -> 
+  custom:scripting/monoscript/fileName/ScrollRectEx.cs: 3f6a881a34055e182fee3ab0baaee0c3 -> 
+  custom:scripting/monoscript/fileName/UIGridRenderer.cs: 04c0062f4b7cdd6963fdba9ae03d9c72 -> 
+  custom:scripting/monoscript/fileName/NicerOutline.cs: 571a7c7c4af4ebadc9fed23f0c3b0b46 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ScrollRectExtensions.cs: c76cb840404ffa9bc24248639e9da4ee -> 
+  custom:scripting/monoscript/fileName/FancyGridViewContext.cs: 8738476657d4a33c34bc82bed7ce8bc9 -> 
+  custom:scripting/monoscript/fileName/MinMaxValues.cs: 4aa11a61e640749f4ea5f947f86be5ba -> 
+  custom:scripting/monoscript/fileName/CardExpanding3D.cs: d8b2b9924677ad2b445b05edbed7f0e3 -> 
+  custom:scripting/monoscript/fileName/MinMaxSliderEditor.cs: e0496a7f76fc8934af2a763a7289ad36 -> 
+  custom:scripting/monoscript/fileName/StepperSide.cs: 34d9a35c8c2622f327b140f18a7398a7 -> 
+  custom:scripting/monoscript/fileName/CUIGraphicEditor.cs: a618262d3e77d462c5a0cd2e608e8a53 -> 
+  custom:scripting/monoscript/fileName/DropDownList.cs: 3d51ab81e9571c9027b59874b2c78567 -> 
+  custom:scripting/monoscript/fileName/ITweenValue.cs: 1d0eaa4b435fa135e18af6b5fa57e92e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CardExpanding2D.cs: e0950b450275cb3936a581f286a6b471 -> 
+  custom:scripting/monoscript/fileName/ResetSelectableHighlight.cs: 3ea63487fd77e7b22731770a86b4f8b9 -> 
+  custom:scripting/monoscript/fileName/UIScrollToSelection.cs: d89fc8e36bdc19715e3104a5f857d175 -> 
+  custom:scripting/monoscript/fileName/IScrollSnap.cs: 80b4110dac6695d630b8e7501d8e5aa8 -> 
+  custom:scripting/monoscript/fileName/SegmentedControl.cs: 3a6e53207de58cf304ab520e0638e2df -> 
+  custom:scripting/monoscript/fileName/ColorSampler.cs: 617678b91f4adc7b3146f51bed3fc4b1 -> 
+  custom:scripting/monoscript/fileName/TabNavigationHelper.cs: 43f45dc623750048d2fbac24931c8ac8 -> 
+  custom:scripting/monoscript/fileName/AutoCompleteComboBox.cs: 6e2e6cf33d4f5ca4ad3c05ff8f254467 -> 
+  custom:scripting/monoscript/fileName/TextPicEditor.cs: c23216fe996c314d4c496ad837485981 -> 
+  custom:scripting/monoscript/fileName/CUIMisc.cs: bc26c7f132f5cd28304cbc88070ca4dc -> 
+  custom:scripting/monoscript/fileName/UIAdditiveEffect.cs: 50386f7d7d76f5c5e155dbf56c5e5fdd -> 
+  custom:scripting/monoscript/fileName/MonoSpacing.cs: 45ba6bf376dd125375a8906a7d8b8b4b -> 
+  custom:scripting/monoscript/fileName/FloatTween.cs: c51b551f6abec506d0db9945f7aa25cc -> 
+  custom:scripting/monoscript/fileName/BoxSlider.cs: 662335e935a62641f6cb14e99e25e994 -> 
+  custom:scripting/monoscript/fileName/BezierLineRendererEditor.cs: 2a50098be424d999e43b888ace13278c -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: a309796f6d67e4c1c110ec62b4572b4e -> 
+  custom:scripting/monoscript/fileName/ScrollPositionController.cs: 30c392a65a277a4a74b1a6f1a3417601 -> 
+  custom:scripting/monoscript/fileName/ContentScrollSnapHorizontal.cs: cb0bf043572062ce08b48904f46c98c8 -> 
+  custom:scripting/monoscript/fileName/Triangulator.cs: 0fd472f1423376cded7e59b247645a25 -> 
+  custom:scripting/monoscript/fileName/UIImageCrop.cs: 1ec5d1f18ccf3bbe8ea319cda00ecfbc -> 
+  custom:scripting/monoscript/fileName/BoxSliderEditor.cs: 9c680a5a338924fb176605eed0f68a75 -> 
+  custom:scripting/monoscript/fileName/FancyScrollView.cs: c5f9c64ec4b4e183b17919204bc381a9 -> 
+  custom:scripting/monoscript/fileName/BezierPath.cs: 90cbb6f823f7a03c69c93b3e1653c45e -> 
+  custom:scripting/monoscript/fileName/SuperellipsePoints.cs: db2a1c9698f2dea478e1d6bfece554ae -> 
+  custom:scripting/monoscript/fileName/UI_Knob.cs: 00244fb2be3e9e1f5ec3a07f175066a9 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/RaycastMask.cs: b13971e6a124c25b886c6703ae2aab24 -> 
+  custom:scripting/monoscript/fileName/MultiTouchScrollRect.cs: 3a778993ea01435b2502c14ea2b2ff98 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/InputFieldEnterSubmit.cs: cdd5149b8afb8dc59ad57cc53ad8fb3b -> 
+  custom:scripting/monoscript/fileName/ExampleSelectable.cs: 8dc7a8cd606154e7d10bb507e235c1f8 -> 
+  custom:scripting/monoscript/fileName/uGUITools.cs: aa32797d8a9cdcd2167b6be114b0d5ec -> 
+  custom:scripting/monoscript/fileName/UILinearDodgeEffect.cs: f5508d2f3f6addba614d4c08275f4546 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/EasingCore.cs: 0bad7e894488e9b67256d892a478aab1 -> 
+  custom:scripting/monoscript/fileName/Stepper.cs: 3ee1a56034750815f9c567b6c54fbbb8 -> 
+  custom:scripting/monoscript/fileName/UIPrimitiveBase.cs: 80a945e915822efd5c887ee28f76aa9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LetterSpacing.cs: c4f4c504ac9c0b708c438c8a0faf6a96 -> 
+  custom:scripting/monoscript/fileName/UISquircle.cs: faaa67841792f2c90a13db82841ac6e3 -> 
+  custom:scripting/monoscript/fileName/RangeSlider.cs: 026cea0882c5bbc90f7cedc5111cfeb2 -> 
+  custom:scripting/monoscript/fileName/UIExtensionMethods.cs: 2621bff24acfb4ddb3b264b7553588d8 -> 
+  custom:scripting/monoscript/fileName/UIVerticalScroller.cs: 3532ae0d4ba5f6e2c310cfec2c655a8c -> 
+  custom:scripting/monoscript/fileName/ColorLabel.cs: 9a2d62e5e8f65400e4abc881023f36f7 -> 
+  custom:scripting/monoscript/fileName/TooltipTrigger.cs: 546a7d73bc42b9e6f1fd03a7e07d7f29 -> 
+  custom:scripting/monoscript/fileName/UIMultiplyEffect.cs: 29b6f1f4d98d9b61292d829c0030af4b -> 
+  custom:scripting/monoscript/fileName/CardPopup2D.cs: ac929914b8675b3ff1238ddb1cc99789 -> 
+  custom:scripting/monoscript/fileName/ScrollSnapScrollbarHelper.cs: d6b043fd7048156ea2ef4da9da4a0a51 -> 
+  custom:scripting/monoscript/fileName/HoverTooltip.cs: abdf0400bdf15bb8fdc0bc4d5ecc993f -> 
+  custom:scripting/monoscript/fileName/ColorImage.cs: 87dea3e9bf43c94e295d4fa411046c66 -> 
+  custom:scripting/monoscript/fileName/FancyScrollRectContext.cs: 9e5d4d8665c04a1190a3fc52908244b0 -> 
+  custom:scripting/monoscript/fileName/TextPicIconEditor.cs: 1f41560011fcb93d03be374d10238c0c -> 
+  custom:scripting/monoscript/fileName/UI_InfiniteScroll.cs: f7518bdb5ccbb5518282b9c860eef985 -> 
+  custom:scripting/monoscript/fileName/UIExtensionsMenuOptions.cs: 25d3bc76bdcc7be45d732e8f064ec6a7 -> 
+  custom:scripting/monoscript/fileName/ReadOnlyAttribute.cs: 604ae8fbc27d6402b88ac08f1987318f -> 
+  custom:scripting/monoscript/fileName/UICircle.cs: e40253d6117a9fbea82cc285a7e8a36e -> 
+  custom:scripting/monoscript/fileName/UIScrollToSelectionXY.cs: 8145d21a6ef6f8610242d2ba291595b9 -> 
+  custom:scripting/monoscript/fileName/CUITextEditor.cs: 966cced0a631446b9484c2fe777a7f5b -> 
+  custom:scripting/monoscript/fileName/TweenRunner.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/UIHorizontalScroller.cs: 758f016ad67e22eff0f26468f408f006 -> 
+  custom:scripting/monoscript/fileName/ReturnKeyTriggersButton.cs: 622f27a1a5fce3f8fe14f0fe6c6b39b5 -> 
+  custom:scripting/monoscript/fileName/FancyGridViewCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/Scroller.cs: 94938ad1cd7c20206a0339e3bd7f3330 -> 
+  custom:scripting/monoscript/fileName/CylinderText.cs: 86c073c10ed890f8e108be86fb350e35 -> 
+  custom:scripting/monoscript/fileName/ColorPickerPresets.cs: d20309ac183a87fd46c2e0a03ba5bdef -> 
+  custom:scripting/monoscript/fileName/RadialSlider.cs: 24542b53b379116a4f98bb53a64e13b8 -> 
+  custom:scripting/monoscript/fileName/PPIViewer.cs: 5269fbe050022d597b2ceba1b1d4cbae -> 
+  custom:scripting/monoscript/fileName/InputFocus.cs: 6a5a3b184038cb5e7dbe4882c96bc91b -> 
+  custom:scripting/monoscript/fileName/CUIBezierCurve.cs: 32214df0cb137de9f4967269deffb6f3 -> 
+  custom:scripting/monoscript/fileName/DropDownListItem.cs: 91c61fd79335f34fb81e114553bf8888 -> 
+  custom:scripting/monoscript/fileName/UIFlippable.cs: 9c843e180ea4b6afe9c1ba071336e124 -> 
+  custom:scripting/monoscript/fileName/CanvasGroupActivator.cs: f743e9c6e47b0eb8c0b7b2fbf9f7de19 -> 
+  custom:scripting/monoscript/fileName/UIWindowBase.cs: 776e605614a77fffd4e0147c8e684e94 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ScrollPositionControllerEditor.cs: fb86570a90d8d5b779234b7f103e1b51 -> 
+  custom:scripting/monoscript/fileName/CurvedLayout.cs: 46917779e317aa4a214ea430689de312 -> 
+  custom:scripting/monoscript/fileName/ScrollConflictManager.cs: 1a474b2432b80a8b7211f13c79bb991c -> 
+  custom:scripting/monoscript/fileName/ReadOnlyDrawer.cs: 1c0aa6472b8e40c24f66a5805d818994 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FancyGridView.cs: 849ed7f5b11c9db237ef61b01c5a5104 -> 
+  custom:scripting/monoscript/fileName/CableCurve.cs: 1ed0592bfc80d3ca3db7b55e9a6e9d9a -> 
+  custom:scripting/monoscript/fileName/PaginationManager.cs: b5c7a38e1c9bde92ca052679632bc9f1 -> 
+  custom:scripting/monoscript/fileName/UILineTextureRenderer.cs: f3042185c83712ad42b2d6694b56f8d3 -> 
+  custom:scripting/monoscript/fileName/MenuManager.cs: 8e71de17d45faf11b5ca3e63d3867170 -> 
+  custom:scripting/monoscript/fileName/ColorPickerPresetsEditor.cs: 57bebb34d006d8305e8cd353ea00f28b -> 
+  custom:scripting/monoscript/fileName/UI_MagneticInfiniteScroll.cs: 7f0db092e1c52c826e7ccbefe21fe7ce -> 
+  custom:scripting/monoscript/fileName/ToolTip.cs: 2f05f936126a769ca9a98ef6920928a7 -> 
+  custom:scripting/monoscript/fileName/TextPicRenameEditor.cs: b67a1588d964fe3ac177da9872e96689 -> 
+  custom:scripting/monoscript/fileName/TestCompression.cs: 2a18178f72c1b3979b9006483863f20e -> 
+  custom:scripting/monoscript/fileName/IFancyScrollRectContext.cs: 9c4dee0aef526d67eb0a668a1c9b910a -> 
+  custom:scripting/monoscript/fileName/ColorChangedEvent.cs: bafb161b451089e6c72bcae877e0ba66 -> 
+  custom:scripting/monoscript/fileName/BestFitOutline.cs: 2ec1c68346f5b721e3d92092cd60b278 -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphicEditor.cs: 1e7abd1e1a4d3da38de70c6d38c19118 -> 
+  custom:scripting/monoscript/fileName/HSVChangedEvent.cs: 8a0d7f505f4db7e267a03264293f54eb -> 
+  custom:scripting/monoscript/fileName/CUIImageEditor.cs: 0be5a4365a8d65680f88c4d192e5254c -> 
+  custom:scripting/monoscript/fileName/HorizontalScrollSnap.cs: 624447835d67a70d90ed2b7f69117316 -> 
+  custom:scripting/monoscript/fileName/UI_TweenScale.cs: 50a18c41daf615d82dc37ef0e9dcea31 -> 
+  custom:scripting/monoscript/fileName/BoundTooltipItem.cs: 12dc26af634677e40fd7840809357e6c -> 
+  custom:scripting/monoscript/fileName/AccordionElement.cs: 69f1a7e537099cc57de9b6eaa86cef32 -> 
+  custom:scripting/monoscript/fileName/UI_ScrollRectOcclusion.cs: 491f1c2592ac821eb8de9e533fddd4a9 -> 
+  custom:scripting/monoscript/fileName/CUIBezierCurveEditor.cs: be4462c6de2387d5f99ef9d0e93b91ee -> 
+  custom:scripting/monoscript/fileName/ColorSliderImage.cs: bbcbfbf23dc2f9fc5450db8f36b24487 -> 
+  custom:scripting/monoscript/fileName/Accordion.cs: c31898dc7ffd6f7b32be5689419229bc -> 
+  custom:scripting/monoscript/fileName/FancyCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ShineEffect.cs: 61d233269c4ea687efa548adef5d6e13 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ScrollRectTweener.cs: 3437a8fb18bed84a45865e36e83e332f -> 
+  custom:scripting/monoscript/fileName/MeshCreator.cs: a2506ad04bac2e5a6d6d50e0d7978d92 -> 
+  custom:scripting/monoscript/fileName/UIPolygon.cs: ef7b3e02606f58c56a27e65db10bc7f3 -> 
+  custom:scripting/monoscript/fileName/switchToRectTransform.cs: 0ef297259b7f2ab26defc1d718ad1e0a -> 
+  custom:scripting/monoscript/fileName/UILineRendererList.cs: efbf4ff76c31aa3e4f61c8b26734d929 -> 
+  custom:scripting/monoscript/fileName/CLZF2.cs: 40ef7bf6191a1a5e5b0f37e092e1b271 -> 
+  custom:scripting/monoscript/fileName/SimpleMenu.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/RescalePanel.cs: a379a55181438e3b7a29019da8a3c82c -> 
+  custom:scripting/monoscript/fileName/DragCorrector.cs: 89ab4a0369eecb75be2277a80a08c1e7 -> 
+  custom:scripting/monoscript/fileName/RangeSliderEditor.cs: 1c09cdb4e75bc10f834bbae9a7b54e1e -> 
+  custom:scripting/monoscript/fileName/FancyScrollRect.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ReorderableList.cs: 944c8e214787d07461c711b29546f976 -> 
+  custom:scripting/monoscript/fileName/RadialLayout.cs: 170f31c5fdb54a9fe7ba926effdfd7d4 -> 
+  custom:scripting/monoscript/fileName/ColorSlider.cs: a91d06b853e0bf2d5df3ea61a67d5c83 -> 
+  custom:scripting/monoscript/fileName/IFancyGridViewContext.cs: be7addf49e5950ebb654fec55c2afa8b -> 
+  custom:scripting/monoscript/fileName/CUIGraphic.cs: 4f47fad340418bff51fe6171e2259e7f -> 
+  custom:scripting/monoscript/fileName/IFancyCellGroupContext.cs: 323b5f49cc2011b3d2d9088e528ed161 -> 
+  custom:scripting/monoscript/fileName/MinMaxSlider.cs: e7d98a511e8b98df33f72f37935821e5 -> 
+  custom:scripting/monoscript/fileName/ColorPickerTester.cs: 63b6c03c009a94721b9d41c8d5e5e6ed -> 
+========================================================================
+Received Import Request.
+  Time since last request: 600.460532 seconds.
+  path: Assets/FBX/Axe_Small.fbx
+  artifactKey: Guid(e850d64ceec33764f8939a7ad738a9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Axe_Small.fbx using Guid(e850d64ceec33764f8939a7ad738a9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8926cfa88f0de5b6e74e97ecd2ba0d') in 0.159546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FBX/FirstAidKit.fbx
+  artifactKey: Guid(3e347d24f88efd746857dfd2116d8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/FirstAidKit.fbx using Guid(3e347d24f88efd746857dfd2116d8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b352ebe4c8cc536ecd76063a1e2273c') in 0.095710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FBX/Matchbox.fbx
+  artifactKey: Guid(98c9ed1472697694d869c3f887c64adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Matchbox.fbx using Guid(98c9ed1472697694d869c3f887c64adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30180e0d49f3d163a0c7ab3dee56683d') in 0.062795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FBX/Revolver_3.fbx
+  artifactKey: Guid(c4ac262627e7d63449bc6a986d85b582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Revolver_3.fbx using Guid(c4ac262627e7d63449bc6a986d85b582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13db8a55b4a199d1e7b6466c14c9c5eb') in 0.046480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FBX/PropaneTank.fbx
+  artifactKey: Guid(d3af6b5ee20ed0946bb8c7a13882af1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/PropaneTank.fbx using Guid(d3af6b5ee20ed0946bb8c7a13882af1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31eb38739a5c4bdd6f7799406c66ac5') in 0.069536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FBX/Pan.fbx
+  artifactKey: Guid(7f089b4c207731d498afc7ceba753d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Pan.fbx using Guid(7f089b4c207731d498afc7ceba753d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce5bd42ecc829de337aa3aaa6cd13e3') in 0.053314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FBX/BearTrap_Closed.fbx
+  artifactKey: Guid(d5401e6295af1834ca64f8308ea6b75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/BearTrap_Closed.fbx using Guid(d5401e6295af1834ca64f8308ea6b75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8861af4014759c96eed8ca5532bc12') in 0.024009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FBX/Phone.fbx
+  artifactKey: Guid(976c364dc822a3145bfc338fbabbcc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Phone.fbx using Guid(976c364dc822a3145bfc338fbabbcc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de44626d4d4f1d608f4537d6f0fc620') in 0.046107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FBX/Bonfire.fbx
+  artifactKey: Guid(a60240b02be6efa479a6df4b2f77cc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Bonfire.fbx using Guid(a60240b02be6efa479a6df4b2f77cc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02e77ace30f088fe74680bb1f0d4026') in 0.031387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FBX/Match_Burnt.fbx
+  artifactKey: Guid(b90ff7b9e8af2cb47a0c138b412c0dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Match_Burnt.fbx using Guid(b90ff7b9e8af2cb47a0c138b412c0dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c094721c5cb93d88a87e93a0f293488') in 0.024498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FBX/Pistol_1.fbx
+  artifactKey: Guid(e5216d70d856d924da48df50d1597956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Pistol_1.fbx using Guid(e5216d70d856d924da48df50d1597956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39169a4220cbb8e4341df3c424ad9b0e') in 0.047933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FBX/Revolver_1.fbx
+  artifactKey: Guid(9144097809769a7458ffbe3783ccffac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Revolver_1.fbx using Guid(9144097809769a7458ffbe3783ccffac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a934ec0706789f04e25f3ca87ed29d78') in 0.035626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FBX/Battery_Big.fbx
+  artifactKey: Guid(5eb7ff60b828e4947afafc91a439d7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Battery_Big.fbx using Guid(5eb7ff60b828e4947afafc91a439d7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca443169573e1a9dad5a54841385b58') in 0.036583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FBX/Radio.fbx
+  artifactKey: Guid(49e7ffc0b8eda8744a19cffb935cf51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Radio.fbx using Guid(49e7ffc0b8eda8744a19cffb935cf51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1158bea3ed6fa16ab281cf4596462577') in 0.037949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FBX/Shotgun_2.fbx
+  artifactKey: Guid(47507bf8ea88c1a4086c45c244838f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Shotgun_2.fbx using Guid(47507bf8ea88c1a4086c45c244838f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b43ac4300033646637eb3410c04643') in 0.038615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FBX/Pistol_2.fbx
+  artifactKey: Guid(0468643e707fc4241b7af2f390d9c623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Pistol_2.fbx using Guid(0468643e707fc4241b7af2f390d9c623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0141999b84deca3ed0ef4acd91c97dfd') in 0.041732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FBX/WaterBottle_2.fbx
+  artifactKey: Guid(06c0ea0fd370eeb4eac07613ceae7b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/WaterBottle_2.fbx using Guid(06c0ea0fd370eeb4eac07613ceae7b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6f7d135fc9e29cbd4bb8607dfe314c') in 0.031335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FBX/Tent.fbx
+  artifactKey: Guid(b04d0c0b36bbb754dbef94a6cdbd16cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Tent.fbx using Guid(b04d0c0b36bbb754dbef94a6cdbd16cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a8c45577652fe95efe36392992bb3f') in 0.041551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX/Can_Closed.fbx
+  artifactKey: Guid(98bdf543be8fc2e409dbc2db94c800c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Can_Closed.fbx using Guid(98bdf543be8fc2e409dbc2db94c800c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1918f15269d81f5a3c03d42be8b63e71') in 0.036417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FBX/WoodenTorch.fbx
+  artifactKey: Guid(83e237df9fb148b4c827c1c150d7c91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/WoodenTorch.fbx using Guid(83e237df9fb148b4c827c1c150d7c91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b74ad5e0da6e67ce32e9d8fc0a7a3b') in 0.035897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FBX/Can_Red.fbx
+  artifactKey: Guid(6e2d967ad6cc92e4d944e3124787ab31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Can_Red.fbx using Guid(6e2d967ad6cc92e4d944e3124787ab31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666febbe2ac8131dc21e07ef3bfe4868') in 0.045798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FBX/Match.fbx
+  artifactKey: Guid(6276190ff23e3fd449e2a0ef3537df43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Match.fbx using Guid(6276190ff23e3fd449e2a0ef3537df43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e494acef3bdadc16216898b1caf7c6a5') in 0.028457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FBX/Trashcan.fbx
+  artifactKey: Guid(3f723500f52cbc44bba6e3d6ea5e9c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Trashcan.fbx using Guid(3f723500f52cbc44bba6e3d6ea5e9c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba418bf1324eac5149d9ea0b1e83cde') in 0.039367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FBX/Knife.fbx
+  artifactKey: Guid(9d0e1aa3575222e4c9c754212fb86858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Knife.fbx using Guid(9d0e1aa3575222e4c9c754212fb86858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52220828e862342a7e17d37cefa9a7a7') in 0.055250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX/Pot.fbx
+  artifactKey: Guid(4bdf9d6d7d101f84c8c9d59c53fe3b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Pot.fbx using Guid(4bdf9d6d7d101f84c8c9d59c53fe3b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e76075cca25b9be282b44cca4beeec') in 0.043758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FBX/Backpack.fbx
+  artifactKey: Guid(c896242bef47a784ab797d1fb4b1ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Backpack.fbx using Guid(c896242bef47a784ab797d1fb4b1ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef93187032f34e5a997227d6fd66f263') in 0.059828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\UrbanHackathon 2024\Unity\CityHackathon_0\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\UrbanHackathon 2024\Unity\CityHackathon_0\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.869 seconds
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.304 seconds
+Domain Reload Profiling: 2170ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (604ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (358ms)
+			TypeCache.Refresh (352ms)
+				TypeCache.ScanAssembly (335ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1304ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (780ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (592ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3535 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.3 KB). Loaded Objects now: 4098.
+Memory consumption went from 208.9 MB to 208.9 MB.
+Total: 3.884000 ms (FindLiveObjects: 0.319100 ms CreateObjectMapping: 0.286300 ms MarkObjects: 3.233900 ms  DeleteObjects: 0.043900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/CardStack2D.cs: 52f7ac406c04f320c1cc31b32fc945ec -> 
+  custom:scripting/monoscript/fileName/UILineRendererFIFO.cs: 1a840d7d842445f62c20beee85a5bbc5 -> 
+  custom:scripting/monoscript/fileName/FlowLayoutGroup.cs: 4f8c51e99186127173631d5ea0b848a8 -> 
+  custom:scripting/monoscript/fileName/UIParticleSystem.cs: 6cef203566a0c9333597e4e233613614 -> 
+  custom:scripting/monoscript/fileName/UILineRenderer.cs: 673f1b621ab4781ac78770b1b3c45207 -> 
+  custom:scripting/monoscript/fileName/TableLayoutGroup.cs: 9697d88a99d4c91003d206b86eed3a61 -> 
+  custom:scripting/monoscript/fileName/Segment.cs: 823b994f6bbb6e32f73e9807948df6b3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SelectionBox.cs: 9eabc2822607d24d284c5c0d720d4a01 -> 
+  custom:scripting/monoscript/fileName/ReorderableListContent.cs: a630238339e5f198f723ac29a2329f6d -> 
+  custom:scripting/monoscript/fileName/SetPropertyUtility.cs: 02aade692758e5563210cc05829e9851 -> f604b4b9e6b0979bdfc1e2b40426dd19
+  custom:scripting/monoscript/fileName/HSVUtil.cs: 2f204c7a89b046fae714aadbcda42851 -> 
+  custom:scripting/monoscript/fileName/FancyCellGroup.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/RescaleDragPanel.cs: 428e5a10a21f2d3fc3805557487d591e -> 
+  custom:scripting/monoscript/fileName/ExtensionsToggleGroup.cs: 93967f93faef61aecdca9232fa42b062 -> 
+  custom:scripting/monoscript/fileName/ResizePanel.cs: 0a2d1269c62cba913a254b515f8b6020 -> 
+  custom:scripting/monoscript/fileName/Circle.cs: cfc2369c92dd039be7c3f572f769fdcf -> 
+  custom:scripting/monoscript/fileName/ShaderLibrary.cs: 7a09676978959734a6827051c965f749 -> 
+  custom:scripting/monoscript/fileName/CurvedText.cs: c86aabacdca275700720e919fc8a8b52 -> 
+  custom:scripting/monoscript/fileName/FancyScrollRectCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/Gradient.cs: a4c2a5a25440c543cd82653fda832632 -> 
+  custom:scripting/monoscript/fileName/ScrollSnapBase.cs: 3682088473625968e7b4647a6b4213f6 -> 
+  custom:scripting/monoscript/fileName/CUIText.cs: 0be1a405bc9388e4813a74aad6018bec -> 
+  custom:scripting/monoscript/fileName/BoundTooltipTrigger.cs: e78e2ee612ba85e075ab794a5cb95e73 -> 
+  custom:scripting/monoscript/fileName/UIHighlightable.cs: fd305ad78204cb75a66ce809c3f50e6a -> 
+  custom:scripting/monoscript/fileName/UIExtensionsInputManager.cs: 6f468ddae971c3bcce0288549c1beabd -> 
+  custom:scripting/monoscript/fileName/Gradient2.cs: 9c1fd6257924e43a80b8fccb859d3828 -> 
+  custom:scripting/monoscript/fileName/CooldownButton.cs: 72bd21b90ac71f29908a36179176f8fc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TileSizeFitter.cs: ba6326e335b6f177a627b992c444832c -> 
+  custom:scripting/monoscript/fileName/SelectableScaler.cs: 3ebe175d64b38a572f8dbe8fd345f0c3 -> 
+  custom:scripting/monoscript/fileName/AccordionElementEditor.cs: db5ee9b2cff22578a12a4d141614d665 -> 
+  custom:scripting/monoscript/fileName/ExtensionsToggle.cs: e0b44aa7e1ff973d74b4857a34a48879 -> 
+  custom:scripting/monoscript/fileName/ShineEffector.cs: 52ed4eb6c7ed8f674a18d2a4db6eba86 -> 
+  custom:scripting/monoscript/fileName/ReorderableListElement.cs: 788a31431a1c95dc9a9a52767f8e812f -> 
+  custom:scripting/monoscript/fileName/UISelectableExtension.cs: b6766007d8a2236e23d4749da2d8cdd2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/UISoftAdditiveEffect.cs: 30a825933c907dec19605ff2f58a292f -> 
+  custom:scripting/monoscript/fileName/HexColorField.cs: 425eeca1ce4159bc649962b2337061a4 -> 
+  custom:scripting/monoscript/fileName/ColorPickerControl.cs: 97231f899ae243cc634f34e048c22095 -> 
+  custom:scripting/monoscript/fileName/ReorderableListDebug.cs: 51cf5a188c464deb681bea16cb795b61 -> 
+  custom:scripting/monoscript/fileName/TextPic.cs: 9dbd7bc654cbf19eee33ac6fc452bfb1 -> 
+  custom:scripting/monoscript/fileName/CUIImage.cs: 41f29f650aa507f802cd9793d91f3211 -> 
+  custom:scripting/monoscript/fileName/DropDownListButton.cs: 71d533f2602e0e099d09a556ef8e4414 -> 
+  custom:scripting/monoscript/fileName/ScrollSnap.cs: c5ae67ed5cc8c0ab1f7496803acc2648 -> 
+  custom:scripting/monoscript/fileName/TextPicIconListCopier.cs: a564a2a474c019b98650cff2383ccfca -> 
+  custom:scripting/monoscript/fileName/UICornerCut.cs: 69b0dfb485aa2b1afa65fcf30028125b -> 
+  custom:scripting/monoscript/fileName/ScrollerEditor.cs: 478519b80ad2bc62d4a4b80ae078e694 -> 
+  custom:scripting/monoscript/fileName/IBoxSelectable.cs: a5bf39a694cf2b84c65e7bec998d4941 -> 
+  custom:scripting/monoscript/fileName/TiltWindow.cs: 7c3356d1b5bc9c6e9fe98345b0be7c30 -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 943bd8dac5ce9467ce7deb0856dc6b0a -> 
+  custom:scripting/monoscript/fileName/ComboBox.cs: a6ca48dde827ff07a9093f3624d58e62 -> 
+  custom:scripting/monoscript/fileName/ScrollRectLinker.cs: 0316116e17d192ca2ef7c97539dff50f -> 
+  custom:scripting/monoscript/fileName/SVBoxSlider.cs: 1d22c9c16d63e1cf38ad19bbcec9a0da -> 
+  custom:scripting/monoscript/fileName/VerticalScrollSnap.cs: a7ebcf1fac8331e70ee01e540cbe484b -> 
+  custom:scripting/monoscript/fileName/UILineConnector.cs: ea5f69a32957fe35ae7b512ef3f758ef -> 
+  custom:scripting/monoscript/fileName/UIScreenEffect.cs: c36542c529d1f733362556ab22c18bf9 -> 
+  custom:scripting/monoscript/fileName/SoftMaskScript.cs: 867049fb2647c9983fb1391409f93d30 -> 
+  custom:scripting/monoscript/fileName/DiamondGraph.cs: a01b647a54847840428a395cc0d6fc16 -> 
+  custom:scripting/monoscript/fileName/ScrollRectEx.cs: 3f6a881a34055e182fee3ab0baaee0c3 -> 
+  custom:scripting/monoscript/fileName/UIGridRenderer.cs: 04c0062f4b7cdd6963fdba9ae03d9c72 -> 
+  custom:scripting/monoscript/fileName/NicerOutline.cs: 571a7c7c4af4ebadc9fed23f0c3b0b46 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ScrollRectExtensions.cs: c76cb840404ffa9bc24248639e9da4ee -> 
+  custom:scripting/monoscript/fileName/FancyGridViewContext.cs: 8738476657d4a33c34bc82bed7ce8bc9 -> 
+  custom:scripting/monoscript/fileName/MinMaxValues.cs: 4aa11a61e640749f4ea5f947f86be5ba -> 
+  custom:scripting/monoscript/fileName/CardExpanding3D.cs: d8b2b9924677ad2b445b05edbed7f0e3 -> 
+  custom:scripting/monoscript/fileName/MinMaxSliderEditor.cs: e0496a7f76fc8934af2a763a7289ad36 -> 
+  custom:scripting/monoscript/fileName/StepperSide.cs: 34d9a35c8c2622f327b140f18a7398a7 -> 
+  custom:scripting/monoscript/fileName/CUIGraphicEditor.cs: a618262d3e77d462c5a0cd2e608e8a53 -> 
+  custom:scripting/monoscript/fileName/DropDownList.cs: 3d51ab81e9571c9027b59874b2c78567 -> 
+  custom:scripting/monoscript/fileName/ITweenValue.cs: 1d0eaa4b435fa135e18af6b5fa57e92e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CardExpanding2D.cs: e0950b450275cb3936a581f286a6b471 -> 
+  custom:scripting/monoscript/fileName/ResetSelectableHighlight.cs: 3ea63487fd77e7b22731770a86b4f8b9 -> 
+  custom:scripting/monoscript/fileName/UIScrollToSelection.cs: d89fc8e36bdc19715e3104a5f857d175 -> 
+  custom:scripting/monoscript/fileName/IScrollSnap.cs: 80b4110dac6695d630b8e7501d8e5aa8 -> 
+  custom:scripting/monoscript/fileName/SegmentedControl.cs: 3a6e53207de58cf304ab520e0638e2df -> 
+  custom:scripting/monoscript/fileName/ColorSampler.cs: 617678b91f4adc7b3146f51bed3fc4b1 -> 
+  custom:scripting/monoscript/fileName/TabNavigationHelper.cs: 43f45dc623750048d2fbac24931c8ac8 -> 
+  custom:scripting/monoscript/fileName/AutoCompleteComboBox.cs: 6e2e6cf33d4f5ca4ad3c05ff8f254467 -> 
+  custom:scripting/monoscript/fileName/TextPicEditor.cs: c23216fe996c314d4c496ad837485981 -> 
+  custom:scripting/monoscript/fileName/CUIMisc.cs: bc26c7f132f5cd28304cbc88070ca4dc -> 
+  custom:scripting/monoscript/fileName/UIAdditiveEffect.cs: 50386f7d7d76f5c5e155dbf56c5e5fdd -> 
+  custom:scripting/monoscript/fileName/MonoSpacing.cs: 45ba6bf376dd125375a8906a7d8b8b4b -> 
+  custom:scripting/monoscript/fileName/FloatTween.cs: c51b551f6abec506d0db9945f7aa25cc -> 
+  custom:scripting/monoscript/fileName/BoxSlider.cs: 662335e935a62641f6cb14e99e25e994 -> 
+  custom:scripting/monoscript/fileName/BezierLineRendererEditor.cs: 2a50098be424d999e43b888ace13278c -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: a309796f6d67e4c1c110ec62b4572b4e -> 
+  custom:scripting/monoscript/fileName/ScrollPositionController.cs: 30c392a65a277a4a74b1a6f1a3417601 -> 
+  custom:scripting/monoscript/fileName/ContentScrollSnapHorizontal.cs: cb0bf043572062ce08b48904f46c98c8 -> 
+  custom:scripting/monoscript/fileName/Triangulator.cs: 0fd472f1423376cded7e59b247645a25 -> 
+  custom:scripting/monoscript/fileName/UIImageCrop.cs: 1ec5d1f18ccf3bbe8ea319cda00ecfbc -> 
+  custom:scripting/monoscript/fileName/BoxSliderEditor.cs: 9c680a5a338924fb176605eed0f68a75 -> 
+  custom:scripting/monoscript/fileName/FancyScrollView.cs: c5f9c64ec4b4e183b17919204bc381a9 -> 
+  custom:scripting/monoscript/fileName/BezierPath.cs: 90cbb6f823f7a03c69c93b3e1653c45e -> 
+  custom:scripting/monoscript/fileName/SuperellipsePoints.cs: db2a1c9698f2dea478e1d6bfece554ae -> 
+  custom:scripting/monoscript/fileName/UI_Knob.cs: 00244fb2be3e9e1f5ec3a07f175066a9 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/RaycastMask.cs: b13971e6a124c25b886c6703ae2aab24 -> 
+  custom:scripting/monoscript/fileName/MultiTouchScrollRect.cs: 3a778993ea01435b2502c14ea2b2ff98 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/InputFieldEnterSubmit.cs: cdd5149b8afb8dc59ad57cc53ad8fb3b -> 
+  custom:scripting/monoscript/fileName/ExampleSelectable.cs: 8dc7a8cd606154e7d10bb507e235c1f8 -> 
+  custom:scripting/monoscript/fileName/uGUITools.cs: aa32797d8a9cdcd2167b6be114b0d5ec -> 
+  custom:scripting/monoscript/fileName/UILinearDodgeEffect.cs: f5508d2f3f6addba614d4c08275f4546 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/EasingCore.cs: 0bad7e894488e9b67256d892a478aab1 -> 
+  custom:scripting/monoscript/fileName/Stepper.cs: 3ee1a56034750815f9c567b6c54fbbb8 -> 
+  custom:scripting/monoscript/fileName/UIPrimitiveBase.cs: 80a945e915822efd5c887ee28f76aa9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LetterSpacing.cs: c4f4c504ac9c0b708c438c8a0faf6a96 -> 
+  custom:scripting/monoscript/fileName/UISquircle.cs: faaa67841792f2c90a13db82841ac6e3 -> 
+  custom:scripting/monoscript/fileName/RangeSlider.cs: 026cea0882c5bbc90f7cedc5111cfeb2 -> 
+  custom:scripting/monoscript/fileName/UIExtensionMethods.cs: 2621bff24acfb4ddb3b264b7553588d8 -> 
+  custom:scripting/monoscript/fileName/UIVerticalScroller.cs: 3532ae0d4ba5f6e2c310cfec2c655a8c -> 
+  custom:scripting/monoscript/fileName/ColorLabel.cs: 9a2d62e5e8f65400e4abc881023f36f7 -> 
+  custom:scripting/monoscript/fileName/TooltipTrigger.cs: 546a7d73bc42b9e6f1fd03a7e07d7f29 -> 
+  custom:scripting/monoscript/fileName/UIMultiplyEffect.cs: 29b6f1f4d98d9b61292d829c0030af4b -> 
+  custom:scripting/monoscript/fileName/CardPopup2D.cs: ac929914b8675b3ff1238ddb1cc99789 -> 
+  custom:scripting/monoscript/fileName/ScrollSnapScrollbarHelper.cs: d6b043fd7048156ea2ef4da9da4a0a51 -> 
+  custom:scripting/monoscript/fileName/HoverTooltip.cs: abdf0400bdf15bb8fdc0bc4d5ecc993f -> 
+  custom:scripting/monoscript/fileName/ColorImage.cs: 87dea3e9bf43c94e295d4fa411046c66 -> 
+  custom:scripting/monoscript/fileName/FancyScrollRectContext.cs: 9e5d4d8665c04a1190a3fc52908244b0 -> 
+  custom:scripting/monoscript/fileName/TextPicIconEditor.cs: 1f41560011fcb93d03be374d10238c0c -> 
+  custom:scripting/monoscript/fileName/UI_InfiniteScroll.cs: f7518bdb5ccbb5518282b9c860eef985 -> 
+  custom:scripting/monoscript/fileName/UIExtensionsMenuOptions.cs: 25d3bc76bdcc7be45d732e8f064ec6a7 -> 
+  custom:scripting/monoscript/fileName/ReadOnlyAttribute.cs: 604ae8fbc27d6402b88ac08f1987318f -> 
+  custom:scripting/monoscript/fileName/UICircle.cs: e40253d6117a9fbea82cc285a7e8a36e -> 
+  custom:scripting/monoscript/fileName/UIScrollToSelectionXY.cs: 8145d21a6ef6f8610242d2ba291595b9 -> 
+  custom:scripting/monoscript/fileName/CUITextEditor.cs: 966cced0a631446b9484c2fe777a7f5b -> 
+  custom:scripting/monoscript/fileName/TweenRunner.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/UIHorizontalScroller.cs: 758f016ad67e22eff0f26468f408f006 -> 
+  custom:scripting/monoscript/fileName/ReturnKeyTriggersButton.cs: 622f27a1a5fce3f8fe14f0fe6c6b39b5 -> 
+  custom:scripting/monoscript/fileName/FancyGridViewCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/Scroller.cs: 94938ad1cd7c20206a0339e3bd7f3330 -> 
+  custom:scripting/monoscript/fileName/CylinderText.cs: 86c073c10ed890f8e108be86fb350e35 -> 
+  custom:scripting/monoscript/fileName/ColorPickerPresets.cs: d20309ac183a87fd46c2e0a03ba5bdef -> 
+  custom:scripting/monoscript/fileName/RadialSlider.cs: 24542b53b379116a4f98bb53a64e13b8 -> 
+  custom:scripting/monoscript/fileName/PPIViewer.cs: 5269fbe050022d597b2ceba1b1d4cbae -> 
+  custom:scripting/monoscript/fileName/InputFocus.cs: 6a5a3b184038cb5e7dbe4882c96bc91b -> 
+  custom:scripting/monoscript/fileName/CUIBezierCurve.cs: 32214df0cb137de9f4967269deffb6f3 -> 
+  custom:scripting/monoscript/fileName/DropDownListItem.cs: 91c61fd79335f34fb81e114553bf8888 -> 
+  custom:scripting/monoscript/fileName/UIFlippable.cs: 9c843e180ea4b6afe9c1ba071336e124 -> 
+  custom:scripting/monoscript/fileName/CanvasGroupActivator.cs: f743e9c6e47b0eb8c0b7b2fbf9f7de19 -> 
+  custom:scripting/monoscript/fileName/UIWindowBase.cs: 776e605614a77fffd4e0147c8e684e94 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ScrollPositionControllerEditor.cs: fb86570a90d8d5b779234b7f103e1b51 -> 
+  custom:scripting/monoscript/fileName/CurvedLayout.cs: 46917779e317aa4a214ea430689de312 -> 
+  custom:scripting/monoscript/fileName/ScrollConflictManager.cs: 1a474b2432b80a8b7211f13c79bb991c -> 
+  custom:scripting/monoscript/fileName/ReadOnlyDrawer.cs: 1c0aa6472b8e40c24f66a5805d818994 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FancyGridView.cs: 849ed7f5b11c9db237ef61b01c5a5104 -> 
+  custom:scripting/monoscript/fileName/CableCurve.cs: 1ed0592bfc80d3ca3db7b55e9a6e9d9a -> 
+  custom:scripting/monoscript/fileName/PaginationManager.cs: b5c7a38e1c9bde92ca052679632bc9f1 -> 
+  custom:scripting/monoscript/fileName/UILineTextureRenderer.cs: f3042185c83712ad42b2d6694b56f8d3 -> 
+  custom:scripting/monoscript/fileName/MenuManager.cs: 8e71de17d45faf11b5ca3e63d3867170 -> 
+  custom:scripting/monoscript/fileName/ColorPickerPresetsEditor.cs: 57bebb34d006d8305e8cd353ea00f28b -> 
+  custom:scripting/monoscript/fileName/UI_MagneticInfiniteScroll.cs: 7f0db092e1c52c826e7ccbefe21fe7ce -> 
+  custom:scripting/monoscript/fileName/ToolTip.cs: 2f05f936126a769ca9a98ef6920928a7 -> 
+  custom:scripting/monoscript/fileName/TextPicRenameEditor.cs: b67a1588d964fe3ac177da9872e96689 -> 
+  custom:scripting/monoscript/fileName/TestCompression.cs: 2a18178f72c1b3979b9006483863f20e -> 
+  custom:scripting/monoscript/fileName/IFancyScrollRectContext.cs: 9c4dee0aef526d67eb0a668a1c9b910a -> 
+  custom:scripting/monoscript/fileName/ColorChangedEvent.cs: bafb161b451089e6c72bcae877e0ba66 -> 
+  custom:scripting/monoscript/fileName/BestFitOutline.cs: 2ec1c68346f5b721e3d92092cd60b278 -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphicEditor.cs: 1e7abd1e1a4d3da38de70c6d38c19118 -> 
+  custom:scripting/monoscript/fileName/HSVChangedEvent.cs: 8a0d7f505f4db7e267a03264293f54eb -> 
+  custom:scripting/monoscript/fileName/CUIImageEditor.cs: 0be5a4365a8d65680f88c4d192e5254c -> 
+  custom:scripting/monoscript/fileName/HorizontalScrollSnap.cs: 624447835d67a70d90ed2b7f69117316 -> 
+  custom:scripting/monoscript/fileName/UI_TweenScale.cs: 50a18c41daf615d82dc37ef0e9dcea31 -> 
+  custom:scripting/monoscript/fileName/BoundTooltipItem.cs: 12dc26af634677e40fd7840809357e6c -> 
+  custom:scripting/monoscript/fileName/AccordionElement.cs: 69f1a7e537099cc57de9b6eaa86cef32 -> 
+  custom:scripting/monoscript/fileName/UI_ScrollRectOcclusion.cs: 491f1c2592ac821eb8de9e533fddd4a9 -> 
+  custom:scripting/monoscript/fileName/CUIBezierCurveEditor.cs: be4462c6de2387d5f99ef9d0e93b91ee -> 
+  custom:scripting/monoscript/fileName/ColorSliderImage.cs: bbcbfbf23dc2f9fc5450db8f36b24487 -> 
+  custom:scripting/monoscript/fileName/Accordion.cs: c31898dc7ffd6f7b32be5689419229bc -> 
+  custom:scripting/monoscript/fileName/FancyCell.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ShineEffect.cs: 61d233269c4ea687efa548adef5d6e13 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ScrollRectTweener.cs: 3437a8fb18bed84a45865e36e83e332f -> 
+  custom:scripting/monoscript/fileName/MeshCreator.cs: a2506ad04bac2e5a6d6d50e0d7978d92 -> 
+  custom:scripting/monoscript/fileName/UIPolygon.cs: ef7b3e02606f58c56a27e65db10bc7f3 -> 
+  custom:scripting/monoscript/fileName/switchToRectTransform.cs: 0ef297259b7f2ab26defc1d718ad1e0a -> 
+  custom:scripting/monoscript/fileName/UILineRendererList.cs: efbf4ff76c31aa3e4f61c8b26734d929 -> 
+  custom:scripting/monoscript/fileName/CLZF2.cs: 40ef7bf6191a1a5e5b0f37e092e1b271 -> 
+  custom:scripting/monoscript/fileName/SimpleMenu.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/RescalePanel.cs: a379a55181438e3b7a29019da8a3c82c -> 
+  custom:scripting/monoscript/fileName/DragCorrector.cs: 89ab4a0369eecb75be2277a80a08c1e7 -> 
+  custom:scripting/monoscript/fileName/RangeSliderEditor.cs: 1c09cdb4e75bc10f834bbae9a7b54e1e -> 
+  custom:scripting/monoscript/fileName/FancyScrollRect.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ReorderableList.cs: 944c8e214787d07461c711b29546f976 -> 
+  custom:scripting/monoscript/fileName/RadialLayout.cs: 170f31c5fdb54a9fe7ba926effdfd7d4 -> 
+  custom:scripting/monoscript/fileName/ColorSlider.cs: a91d06b853e0bf2d5df3ea61a67d5c83 -> 
+  custom:scripting/monoscript/fileName/IFancyGridViewContext.cs: be7addf49e5950ebb654fec55c2afa8b -> 
+  custom:scripting/monoscript/fileName/CUIGraphic.cs: 4f47fad340418bff51fe6171e2259e7f -> 
+  custom:scripting/monoscript/fileName/IFancyCellGroupContext.cs: 323b5f49cc2011b3d2d9088e528ed161 -> 
+  custom:scripting/monoscript/fileName/MinMaxSlider.cs: e7d98a511e8b98df33f72f37935821e5 -> 
+  custom:scripting/monoscript/fileName/ColorPickerTester.cs: 63b6c03c009a94721b9d41c8d5e5e6ed -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
